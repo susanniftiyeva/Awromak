@@ -36,3 +36,5 @@
     transform: rotate(360deg);
   }
 }
+
+@import url(/src/assets/css/scss/style.scss);
