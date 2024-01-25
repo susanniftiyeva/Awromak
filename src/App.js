@@ -5,6 +5,8 @@ import Home from  "./assets/package/home_pg/home"
 import Rizzi from "./assets/package/Rizzi/rizzi"
 import { Route, Routes } from 'react-router-dom';
 import Production from './assets/package/production/production';
+import './assets/css/scss/style.scss'
+
 function App() {
   return (
     <div className="App">

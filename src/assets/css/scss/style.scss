@@ -6,3 +6,18 @@ h1{
     padding: 0 30px;
 }
 
+// HEADER 
+
+.menu {
+    display: flex;
+    gap: 10rem;
+
+    li {
+        font-size: 2rem;
+        list-style: none;
+    }
+    a {
+        color: #252525;
+        text-decoration: none;
+    }
+}
