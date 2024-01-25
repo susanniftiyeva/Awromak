@@ -1,1 +1,20 @@
-/*# sourceMappingURL=style.css.map */
+h1 {
+  font-size: 1.8rem;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.menu {
+  display: flex;
+  gap: 10rem;
+}
+.menu li {
+  font-size: 1.6rem;
+  list-style: none;
+}
+.menu a {
+  color: #252525;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
