@@ -11,10 +11,16 @@ h1 {
   gap: 10rem;
 }
 .menu li {
-  font-size: 2rem;
+  font-size: 1.6rem;
   list-style: none;
 }
 .menu a {
   color: #252525;
   text-decoration: none;
+}
+
+.header_body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.6rem;
 }/*# sourceMappingURL=style.css.map */
