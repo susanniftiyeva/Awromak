@@ -37,9 +37,8 @@
   }
 }
 
-@import url(/src/assets/css/scss/style.scss);
-@import url(/src/assets/css/home_pg/home.css);
 
 html {
   font-size: 10px;
 }
+

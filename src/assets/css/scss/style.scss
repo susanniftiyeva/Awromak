@@ -1,5 +1,74 @@
 
+// COLORS
+
+$body_color: #F8F8EF;
+$header_text_color: #131313;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+
 
 .container {
   padding: 0 30px;
 }
+
+// HEADER 
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+    li {
+        font-size: 1.6rem;
+        list-style: none;
+    }
+    a {
+        color: $header_text_color;
+        text-decoration: none;
+    }
+}
+
+.header_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+    background-color: $body_color;
+}
+
+// MENU WINDOW 
+
+.menu_window {
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    background-color: $body_color;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        li {
+            list-style: none;
+        }
+        a {
+            font-size: 6.4rem;
+            text-decoration: none;
+            color: #000;
+        }
+        img {
+            margin-left: 1.3rem;
+        }
+}
+
