@@ -1,0 +1,20 @@
+.article_img{
+    img{
+        width: 43rem;
+        float: left;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    h5{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    article{
+        float: left;
+    }
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
