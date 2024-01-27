@@ -10,11 +10,19 @@
         font-size: 1.4rem;
         font-weight: 600;
     }
-    article{
-        float: left;
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start !important;
+        padding-left: 5.6rem;
     }
 }
 .section{
     display: flex;
     flex-direction: column;
+}
+
+.erkoyun {
+    text-align: start;
 }
