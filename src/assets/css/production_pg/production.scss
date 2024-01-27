@@ -1,5 +1,24 @@
-.border-bottom{
-    border-bottom: 1px solid #000000;
-    padding-bottom: 20px;
-    font-size: 40px;
+.border-bottom {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.img1 {
+  width: 1192px;
+  height: 790px;
+  flex-shrink: 0;
+}
+.parent {
+  .hektar {
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: #131313;
+      font-family: Eastman;
+      font-size: 13rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
 }
