@@ -10,7 +10,11 @@ const Production = () => {
           vaxtinda unvana chatdirilma prinsipleri esasinda hem yerli hem de
           xarici bazarda genish nufuz qazanmishdir.
         </h1>
+minever
+        <img className="img1" src={Image.image82} />
+
         <img className="img1"  src={Image} />
+ main
         <p>
           Avromak MMC olaraq, qurulduğumuz gündən gücünü torpaqdan alan kənd
           təsərrüfatı məhsullarımızla fəaliyyət göstəririk. İnvestisiyalarımızı
@@ -29,27 +33,49 @@ const Production = () => {
         </p>
         <div className="parent">
           <div className="hektar">
-          <span >
-          12000 ha  
-        </span>  
-        <span >
-        2500 m<sup>2</sup>
-        </span>
+            <span>12000 ha</span>
+            <span>
+              2500 m<sup>2</sup>
+            </span>
           </div>
-          <hr/>
-          
+          <hr />
+
           <div className="sahe">
-          <span >
-          ƏKİN SAHƏSİ
-        </span>  
-        <span >
-          İSTEHSAL SAHƏSİ
-        </span>
+            <span>ƏKİN SAHƏSİ</span>
+            <span>İSTEHSAL SAHƏSİ</span>
           </div>
+          <hr />
         </div>
       </div>
 
+      <div className="section">
+        <h3>Məhsullarımız</h3>
+        <div className="imgs">
+          <img src={Image.image83} />
+          <img src={Image.image84} />
+          <img src={Image.image85} />
+        </div>
+      </div>
 
+      <div className="section">
+        <h3>Private label</h3>
+        <div className="imags">
+          <img src={Image.pasta1} />
+          <img src={Image.pasta2} />
+          <img src={Image.pasta3} />
+        </div>
+        <p>
+          Keyfiyyətli, sağlam, ləzzətli makaron və unlarımız müştərilərimizin
+          tələb etdiyi standartlara və spesifikasiyalara uyğun hazırlanır və
+          “Avromak” MMC-nin zəmanəti ilə peşəkar işçilərimiz tərəfindən istehsal
+          olunur. Biz Private Label hazırlamaqda böyük təcrübəyə malikik. Öz
+          markanız varsa, markanız altında istənilən paket quruluşunu təmin edə
+          bilərik. Razılaşmaya görə brendiniz olmasa belə, tələblərinizə uyğun
+          olaraq öz brendinizi hazırlaya bilərik. Private Label layihəsi ilə
+          bağlı istənilən vaxt bizimlə əlaqə saxlaya bilərsiniz. Təchizatçı
+          olaraq biz hər zaman şəxsi etiketinizi hazırlamağa hazırıq.
+        </p>
+      </div>
     </div>
   );
 };
