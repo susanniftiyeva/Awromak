@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../img/icon/header/Frame.png'
+import logo from '../../img/icon/header/Logo.svg'
 
 function Header() {
   return (
@@ -17,6 +17,9 @@ function Header() {
             </li>
             <li>
                 <Link to="/production" >Production</Link>
+            </li>
+            <li>
+                <Link to="/menu_window" >= Menu</Link>
             </li>
         </ul>
 
