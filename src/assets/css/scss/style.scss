@@ -22,6 +22,13 @@ h1{
     font-size: 1.8rem;
 }
 
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
 
 
 
@@ -34,6 +41,8 @@ h1{
 .menu {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+
     gap: 5rem;
 
     li {
@@ -82,3 +91,86 @@ h1{
         }
 }
 
+
+// FOOTER 
+
+.footer_body {
+    margin-top: 12rem;
+}
+
+.footer_img_div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer_content {
+    background-color: $header_text_color;
+    padding: 4.1rem 5rem 2.5rem 5rem;
+    img {
+        margin-left: .3rem;
+    }
+}
+.foooter_logo_div {
+    h1 {
+    font-size: 24.2rem;
+    color: #F8F8EF;
+    padding: 0;
+    text-align: center;
+    }
+}
+.footer_contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        li {
+            margin-left: 3.3rem;
+        }
+        a {
+        color: #acacac;
+        font-size: 1.6rem;
+        }
+    }
+}
+.footer_address {
+    margin-top: 9.2rem;
+    ul {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+    }
+    li {
+        font-size: 1.4rem;
+        color: #acacac;
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+        text-align: start;
+
+        strong {
+            font-size: 1.6rem;
+            color: #F8F8EF;
+        }
+    }
+}
+.footer_hr {
+    margin: 3.5rem 0 2.5rem;
+}
+.last_address {
+    color: #F8F8EF;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 428px) {
+    html {
+        font-size: 7px;
+    }
+}
