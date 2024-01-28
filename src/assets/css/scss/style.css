@@ -88,7 +88,7 @@ li {
 
 .footer_content {
   background-color: #131313;
-  padding: 4.1rem 5rem 2.5rem 5rem;
+  padding-top: 4.1rem;
 }
 .footer_content img {
   margin-left: 0.3rem;
@@ -149,10 +149,4 @@ li {
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
-}
-
-@media screen and (max-width: 428px) {
-  html {
-    font-size: 7px;
-  }
 }/*# sourceMappingURL=style.css.map */
