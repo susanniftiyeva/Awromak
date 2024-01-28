@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../css/rizzi/rizzi.scss"
 import rizzi_main from "../../img/images/rizzi_img/Mask group.png"
+import rizzi_img1 from "../../img/images/rizzi_img/img1.png"
 
 
 function Rizzi() {
@@ -8,13 +9,14 @@ function Rizzi() {
     <div className='container '>
       <section className='rizzi_section'>
         <h1>Pasta di Rizzi </h1>
-           <hr />
+           {/* <hr /> */}
            
         <div className='article_img'>
           
-          <img className='rizzi_img2' src={rizzi_main}/>
+          <img src={rizzi_main}/>
+          
           <div className='border_div'>
-          <hr />
+            {/* <hr /> */}
 
             <article>
               <h5>Tərkibi:</h5>
@@ -53,14 +55,33 @@ function Rizzi() {
            
 
           </div>
-          <hr/>
         </div>
       </section>
       
 
 
       
-      <section>
+      <section className='pastas_rizzi'>
+        <div>
+        <img src={rizzi_img1}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
+        <div>
+        <img src={rizzi_img1}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
+        <div>
+        <img src={rizzi_img1}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
+        <div>
+        <img src={rizzi_img1}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
 
       </section>
 
