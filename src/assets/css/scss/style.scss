@@ -34,7 +34,7 @@ li {
 
 .container {
   padding: 0 30px;
-  width: 1440px; //Səhifəni yığanda daha səliqəli görünür \\Minəvər
+//   width: 1440px; //Səhifəni yığanda daha səliqəli görünür \\Minəvər
 }
 
 // HEADER 
@@ -104,13 +104,13 @@ li {
     flex-wrap: wrap;
     width: 100%;
     img {
-        width: calc(100% /5);
+        width: calc(100% / 5);
     }
 }
 
 .footer_content {
     background-color: $header_text_color;
-    padding: 4.1rem 5rem 2.5rem 5rem;
+    padding-top: 4.1rem;
     img {
         margin-left: .3rem;
     }
@@ -173,8 +173,3 @@ li {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 428px) {
-    html {
-        font-size: 7px;
-    }
-}
