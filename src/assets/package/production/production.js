@@ -1,6 +1,6 @@
 import React from "react";
 import "../../css/production_pg/production.scss";
-import Image from "../../img/images/production_pg/image82.svg";
+import Image from "../../img/images/production_pg/Image_production";
 const Production = () => {
   return (
     <div className="container">
@@ -10,11 +10,8 @@ const Production = () => {
           vaxtinda unvana chatdirilma prinsipleri esasinda hem yerli hem de
           xarici bazarda genish nufuz qazanmishdir.
         </h1>
-minever
-        <img className="img1" src={Image.image82} />
 
-        <img className="img1"  src={Image} />
- main
+        <img className="img1" src={Image.image82} />
         <p>
           Avromak MMC olaraq, qurulduğumuz gündən gücünü torpaqdan alan kənd
           təsərrüfatı məhsullarımızla fəaliyyət göstəririk. İnvestisiyalarımızı
