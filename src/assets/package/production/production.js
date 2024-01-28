@@ -1,6 +1,6 @@
 import React from "react";
 import "../../css/production_pg/production.scss";
-import Image from "../../img/images/production_pg/Image";
+import Image from "../../img/images/production_pg/Image_production";
 const Production = () => {
   return (
     <div className="container">
