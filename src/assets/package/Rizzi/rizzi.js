@@ -2,6 +2,11 @@ import React from 'react'
 import "../../css/rizzi/rizzi.scss"
 import rizzi_main from "../../img/images/rizzi_img/Mask group.png"
 import rizzi_img1 from "../../img/images/rizzi_img/img1.png"
+import rizzi_img2 from "../../img/images/rizzi_img/img2.png"
+import rizzi_img3 from "../../img/images/rizzi_img/img3.png"
+import rizzi_img4 from "../../img/images/rizzi_img/img4.png"
+import rizzi_img5 from "../../img/images/rizzi_img/img5.png"
+import rizzi_img6 from "../../img/images/rizzi_img/img6.png"
 
 
 function Rizzi() {
@@ -59,26 +64,47 @@ function Rizzi() {
       </section>
       
 
-
-      
+    
+      <h1>Pasta di Rizzi məhsulları</h1>
       <section className='pastas_rizzi'>
         <div>
         <img src={rizzi_img1}/>
         <hr/>
           <p>Pasta di Rizzi CONCHIGLIE</p>
         </div>
+
         <div>
-        <img src={rizzi_img1}/>
+        <img src={rizzi_img2}/>
         <hr/>
           <p>Pasta di Rizzi CONCHIGLIE</p>
         </div>
+
         <div>
-        <img src={rizzi_img1}/>
+        <img src={rizzi_img3}/>
         <hr/>
           <p>Pasta di Rizzi CONCHIGLIE</p>
         </div>
+
         <div>
-        <img src={rizzi_img1}/>
+        <img src={rizzi_img4}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
+
+        <div>
+        <img src={rizzi_img5}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
+
+        <div>
+        <img src={rizzi_img3}/>
+        <hr/>
+          <p>Pasta di Rizzi CONCHIGLIE</p>
+        </div>
+
+        <div>
+        <img src={rizzi_img6}/>
         <hr/>
           <p>Pasta di Rizzi CONCHIGLIE</p>
         </div>
