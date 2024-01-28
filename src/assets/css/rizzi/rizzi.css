@@ -1,6 +1,13 @@
+.article_img {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
 .article_img img {
-  width: 43rem;
   float: left;
+  padding: 2rem 0;
 }
 .article_img p {
   font-size: 1.4rem;
@@ -15,23 +22,42 @@
   justify-content: flex-start;
   align-items: flex-start !important;
   padding-left: 5.6rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  line-height: 3rem;
 }
 
-.section container {
+.border_div {
+  border-left: 1px solid;
+}
+
+.rizzi_section {
   display: flex;
   flex-direction: column;
 }
-
-section h1 {
+.rizzi_section h1 {
   font-weight: 500;
-  color: #131313;
+}
+.rizzi_section hr {
+  margin: 3.5rem 0;
 }
 
 .erkoyun {
   text-align: start;
 }
 
-article {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+.pastas_rizzi {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  border-top: 1px solid;
+}
+.pastas_rizzi div {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.pastas_rizzi div img {
+  padding: 1rem;
 }/*# sourceMappingURL=rizzi.css.map */
