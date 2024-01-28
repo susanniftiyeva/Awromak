@@ -67,7 +67,6 @@ li {
 // MENU WINDOW 
 
 .menu_window {
-    padding: 2rem;
     width: 100%;
     height: auto;
     background-color: $body_color;
@@ -77,6 +76,7 @@ li {
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
+            padding: 2rem;
         }
         li {
             list-style: none;
@@ -102,6 +102,9 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    img {
+        width: calc(100% /5);
+    }
 }
 
 .footer_content {

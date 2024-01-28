@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Broken+Fax&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #F8F8EF;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +13,14 @@ h1 {
   font-size: 1.8rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .container {
   padding: 0 30px;
 }
@@ -14,6 +28,7 @@ h1 {
 .menu {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 5rem;
 }
 .menu li {
@@ -35,7 +50,6 @@ h1 {
 }
 
 .menu_window {
-  padding: 2rem;
   width: 100%;
   height: auto;
   background-color: #F8F8EF;
@@ -45,6 +59,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 2rem;
 }
 .menu_window li {
   list-style: none;
@@ -56,4 +71,88 @@ h1 {
 }
 .menu_window img {
   margin-left: 1.3rem;
+}
+
+.footer_body {
+  margin-top: 12rem;
+}
+
+.footer_img_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.footer_img_div img {
+  width: 20%;
+}
+
+.footer_content {
+  background-color: #131313;
+  padding: 4.1rem 5rem 2.5rem 5rem;
+}
+.footer_content img {
+  margin-left: 0.3rem;
+}
+
+.foooter_logo_div h1 {
+  font-size: 24.2rem;
+  color: #F8F8EF;
+  padding: 0;
+  text-align: center;
+}
+
+.footer_contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_contacts ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer_contacts ul li {
+  margin-left: 3.3rem;
+}
+.footer_contacts ul a {
+  color: #acacac;
+  font-size: 1.6rem;
+}
+
+.footer_address {
+  margin-top: 9.2rem;
+}
+.footer_address ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer_address li {
+  font-size: 1.4rem;
+  color: #acacac;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  text-align: start;
+}
+.footer_address li strong {
+  font-size: 1.6rem;
+  color: #F8F8EF;
+}
+
+.footer_hr {
+  margin: 3.5rem 0 2.5rem;
+}
+
+.last_address {
+  color: #F8F8EF;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 428px) {
+  html {
+    font-size: 7px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,8 @@
-/*# sourceMappingURL=home.css.map */
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+.header_content h1 {
+  font-size: 5rem;
+  padding: 0;
+}/*# sourceMappingURL=home.css.map */
