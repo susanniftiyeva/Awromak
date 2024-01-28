@@ -5,14 +5,16 @@ import rizzi_main from "../../img/images/rizzi_img/Mask group.png"
 
 function Rizzi() {
   return (
-    <div className='conteiner'>
-      <section className='section container'>
+    <div className='container '>
+      <section className='rizzi_section'>
         <h1>Pasta di Rizzi </h1>
            <hr />
            
         <div className='article_img'>
-          <img  src={rizzi_main}/>
-          <div>
+          
+          <img className='rizzi_img2' src={rizzi_main}/>
+          <div className='border_div'>
+          <hr />
 
             <article>
               <h5>Tərkibi:</h5>
@@ -41,15 +43,20 @@ function Rizzi() {
             <article>
               <h5>100 QR MƏHSULUN QIDA VƏ ENERJI DƏYƏRLƏRI</h5>
               <p>Yağlar: 1.3
+                <br/>
                  Zülallar: 10.7
+                 <br/>
                  Karbohidratlar: 68.4
+                 <br/>
                  Enerji dəyəri (KKAL): 328,1</p>
             </article>
-            <hr/>
+           
 
           </div>
+          <hr/>
         </div>
       </section>
+      
 
 
       
