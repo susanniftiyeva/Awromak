@@ -21,6 +21,9 @@ function Header() {
             <li>
                 <Link to="/menu_window" >= Menu</Link>
             </li>
+            <li>
+                <Link to="/about" >About</Link>
+            </li>
         </ul>
 
 
