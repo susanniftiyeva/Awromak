@@ -6,12 +6,25 @@
     font-weight: 400;
     line-height: normal;
   }
+  h3{
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  p{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
 }
 
 .article-ab1 {
   display: flex;
   flex-direction: column;
-  // justify-content: end;
   align-items: end;
   border-bottom: solid 1px;
   img {
@@ -20,11 +33,6 @@
   }
   p {
     width: 68.9rem;
-    color: #000;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
     margin-top: 4.3rem;
     margin-bottom: 15px;
     margin-right: 25rem;
@@ -43,38 +51,77 @@
 
 .article-ab2 {
   display: flex;
+  border-bottom: solid 1px;
   img {
     justify-content: end;
     align-items: end;
+    margin: 46px 0;
   }
   h3 {
-    color: #000;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    margin: 46px 0 44px 55px;
   }
   p {
     flex-direction: column;
     justify-content: start;
     width: 358px;
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    // margin-bottom: 1.5rem;
-    padding: 44px 92px 15px 55px;
+    padding: 0 92px 15px 55px;
   }
-  span {
+}
+
+.article-ab3{
+  display: flex;
+  border-bottom: solid 1px;
+  img{
+    justify-content: start;
+    align-items: start;
+    margin: 46px 0;
+  }
+  h3{
+    margin: 46px 171px 46px 30px;
+  }
+
+  p{
+    flex-direction: column;
+    justify-content: end;
+    width: 382px;
+    padding: 0 92px 15px 30px;
+  }
+}
+.article-ab4{
+  display: flex;
+  border-bottom: 1px solid;
+  img{
+    margin: 36px 0 55px 0;
+    justify-content: end;
+    align-items: end;
+  }
+  h3{
+    margin: 36px 140px 46px 55px;
+  }
+  p{
+    width: 404px;
     flex-direction: column;
     justify-content: start;
-    width: 300px;
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    // padding: 0 92px 260px 55px;
+    width: 382px;
+    padding: 0 46px 15px 55px;
+  }
+}
+
+.article-ab5{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid;
+  img{
+    justify-content: center;
+  align-items: center;
+  margin: 0 55px;
+  }
+  h1{
+    margin: 36px 239px 46px 55px;
+  }
+  p{
+    width: 750px;
+    padding: 44px 0 46px 55px;
+  
   }
 }
