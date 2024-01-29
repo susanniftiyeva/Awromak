@@ -8,6 +8,7 @@ import Production from './assets/package/production/production';
 import './assets/css/scss/style.scss'
 import Menu_window from './assets/components/header/menu_window';
 import About from './assets/package/about.pg/about';
+import Retail from './assets/package/retail.pg/retail';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/production' element={<Production/>}/>
       <Route path='/menu_window' element={<Menu_window/>} />
       <Route path='/about'  element={<About/>} />
+      <Route path='/retail'  element={<Retail/>}  />
     </Routes>
 
       <Footer/>

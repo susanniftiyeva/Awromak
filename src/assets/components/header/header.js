@@ -33,7 +33,7 @@ function Header() {
 
   return (
 
-    <div>
+   
 
     <div className='header_body container'>
         <div>
@@ -54,6 +54,9 @@ function Header() {
             </li>
             <li>
                 <Link to="/about" >About</Link>
+            </li>
+            <li>
+                <Link to="/retail" >Retail</Link>
             </li>
         </ul>
 
