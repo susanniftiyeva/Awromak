@@ -35,36 +35,14 @@ function Header() {
 
    
 
-    <div className='header_body container'>
-        <div>
-            <img src={logo} alt='logo'/>
-        </div>
-        <ul className='menu'>
-            <li>
-                <Link to="/" >Home</Link>
-            </li>
-            <li>
-                <Link to="/rizzi" >Rizzi</Link>
-            </li>
-            <li>
-                <Link to="/production" >Production</Link>
-            </li>
-            <li>
-                <Link to="/menu_window" >= Menu</Link>
-            </li>
-            <li>
-                <Link to="/about" >About</Link>
-            </li>
-            <li>
-                <Link to="/retail" >Retail</Link>
-            </li>
-        </ul>
-
+  
 
         <div className='header_body container'>
+
             <div>
                 <img src={logo} alt='logo'/>
             </div>
+            
             <ul className='menu'>
                 <li>
                     <Link to="/" >Home</Link>
@@ -75,6 +53,12 @@ function Header() {
                 <li>
                     <Link to="/production" >Production</Link>
                 </li>
+                <li>
+                <Link to="/about" >About</Link>
+            </li>
+            <li>
+                <Link to="/retail" >Retail</Link>
+            </li>
                 <li>
                     {/* <Link to="/menu_window" >= Menu</Link> */}
                     <div className='menu_icons'>
@@ -87,7 +71,7 @@ function Header() {
                     </div>
                 </li>
             </ul>
-            </div>
+            
 
             {isMenuOpen && (
 
