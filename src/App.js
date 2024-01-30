@@ -9,6 +9,7 @@ import './assets/css/scss/style.scss'
 import Menu_window from './assets/components/header/menu_window';
 import About from './assets/package/about.pg/about';
 import Retail from './assets/package/retail.pg/retail';
+import Kelebek from './assets/package/kelebek/kelebek';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Route path='/menu_window' element={<Menu_window/>} />
       <Route path='/about'  element={<About/>} />
       <Route path='/retail'  element={<Retail/>}  />
+      <Route path='/kelebek' element={<Kelebek/>}/>
+      
     </Routes>
 
       <Footer/>
