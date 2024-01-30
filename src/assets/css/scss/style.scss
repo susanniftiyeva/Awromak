@@ -96,6 +96,9 @@ li {
 #menu_w_div {
     width: 100%;
     position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 100;
 }
 
 .menu_btn {
