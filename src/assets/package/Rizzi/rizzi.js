@@ -7,11 +7,18 @@ import rizzi_img3 from "../../img/images/rizzi_img/img3.png"
 import rizzi_img4 from "../../img/images/rizzi_img/img4.png"
 import rizzi_img5 from "../../img/images/rizzi_img/img5.png"
 import rizzi_img6 from "../../img/images/rizzi_img/img6.png"
-
+import {Helmet} from 'react-helmet'
 
 function Rizzi() {
   return (
+    <>
+
+    <Helmet>
+        <title>Rizzi</title>
+        <meta name="description" content="Rizzi makaronlari" />
+    </Helmet>
     <div className='container '>
+    
       <section className='rizzi_section'>
         <h1>Pasta di Rizzi </h1>
            {/* <hr /> */}
@@ -112,6 +119,7 @@ function Rizzi() {
       </section>
 
     </div>
+    </>
   )
 }
 
