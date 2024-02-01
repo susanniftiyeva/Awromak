@@ -39,9 +39,9 @@ function Header() {
 
         <div className='header_body container'>
 
-            <div>
+            <Link to='/'>
                 <img src={logo} alt='logo'/>
-            </div>
+            </Link>
             
             <ul className='menu'>
                 <li>
