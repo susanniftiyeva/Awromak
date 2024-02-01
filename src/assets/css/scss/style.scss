@@ -33,7 +33,7 @@ li {
 
 
 .container {
-  padding: 0 30px;
+  padding: 11rem 3rem 5rem 3rem;
 //   width: 1440px; //Səhifəni yığanda daha səliqəli görünür \\Minəvər
 }
 
@@ -43,6 +43,7 @@ li {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding-right: 7rem;
 
     gap: 5rem;
 
@@ -63,6 +64,9 @@ li {
     padding-top: 2.6rem;
     padding-bottom: 1rem;
     background-color: $body_color;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 // MENU WINDOW 
@@ -96,7 +100,7 @@ li {
 #menu_w_div {
     width: 100%;
     position: absolute;
-    top: 100px;
+    top: 100%;
     left: 0;
     z-index: 100;
 }
