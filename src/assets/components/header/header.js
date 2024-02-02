@@ -59,6 +59,9 @@ function Header() {
             <li>
                 <Link to="/retail" >Retail</Link>
             </li>
+            <li>
+                <Link to="/contact" >Contact</Link>
+            </li>
                 <li>
                     {/* <Link to="/menu_window" >= Menu</Link> */}
                     <div className='menu_icons'>

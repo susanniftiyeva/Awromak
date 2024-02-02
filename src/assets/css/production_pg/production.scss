@@ -71,9 +71,45 @@
     text-align: start;
   }
 }
-.imgs {
+.mehsullar_section {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  a {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid;
+      padding: 2rem 0;
+  }
+  a {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #000;
+  }
+}
+.mehsullar_div {
+  width: fit-content;
+  position: relative;
+
+}
+.mehsul_img {
+  .mehsul_header {
+  content: 'Ət məhsulları';
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 4rem;
+  width: 100%;
+}
+}
+.altbashliq {
+  font-size: 4rem;
+  margin-top: 17rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
 }
 
 .imags {

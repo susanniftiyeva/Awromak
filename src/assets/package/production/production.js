@@ -1,6 +1,8 @@
 import React from "react";
 import "../../css/production_pg/production.scss";
 import Image from "../../img/images/production_pg/Image_production";
+import up_arch from '../../img/icon/home/right_up.svg';
+import { Link } from 'react-router-dom';
 const Production = () => {
   return (
     <div className="custon_container">
@@ -45,14 +47,75 @@ const Production = () => {
         </div>
       </div>
 
-      <div className="section">
-        <h3>Məhsullarımız</h3>
-        <div className="imgs">
-          <img src={Image.image83} />
-          <img src={Image.image84} />
-          <img src={Image.image85} />
+    
+
+       
+       <h2 className='altbashliq'>Məhsullarımız</h2>
+      <div className='mehsullar_section'>
+       <div className='mehsullar_div'>
+          <div className='mehsul_img'>
+            <img src={Image.image83} />
+            <h6 className='mehsul_header'>Ət məhsulları</h6>
+          </div>
+
+          <div>
+            <Link to='/rosko'>
+              <h5>Rosko</h5>
+              <img src={up_arch} />
+            </Link>
+            <Link to='/ustad'>
+              <h5>Ustdad</h5>
+              <img src={up_arch} />
+            </Link>
+            <Link to='/dadim'>
+              <h5>Dadim</h5>
+              <img src={up_arch} />
+            </Link>
+          </div>
+
         </div>
-      </div>
+
+
+        <div className='mehsullar_div'>
+          <div className='mehsul_img'>
+            <img src={Image.image84} />
+            <h6 className='mehsul_header'>Makaron</h6>
+
+          </div>
+          <div>
+            <Link to='/favelli'>
+              <h5>Favelli</h5>
+              <img src={up_arch} />
+            </Link>
+            <Link to='/makara'>
+              <h5>Makara</h5>
+              <img src={up_arch} />
+            </Link>
+            <Link to='/kelebek'>
+              <h5>Kelebek</h5>
+              <img src={up_arch} />
+            </Link>
+            <Link to='/rizzi'>
+              <h5>Pasta Di Rizzi</h5>
+              <img src={up_arch} />
+            </Link>
+          </div>
+        </div>
+        
+        <div className='mehsullar_div'>
+          <div className='mehsul_img'>
+            <img src={Image.image85} />
+            <h6 className='mehsul_header'>Un məhsulları</h6>
+          </div>
+          <div>
+            <Link to='/favelli'>
+              <h5>Favelli Un</h5>
+              <img src={up_arch} />
+            </Link>
+          </div>
+        </div>
+       </div>
+       <div/>
 
       <div className="section">
         <h3>Private label</h3>
