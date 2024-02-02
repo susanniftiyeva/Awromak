@@ -1,0 +1,40 @@
+.exportBody {
+    h2 {
+        font-size: 4rem;
+        font-weight: 400;
+        border-bottom: 1px solid;
+        padding-bottom: 5rem;
+        margin-bottom: 5rem;
+    }
+    .heroContent {
+    img {
+        width: 100%;
+    }
+    }
+}
+
+.exportContent1 {
+    display: flex;
+    margin-top: 5rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    div {
+        width: 50%;
+        padding: 5rem 5rem;
+    }
+    .rightBorder {
+        border-right: 1px solid;
+    }
+    h3 {
+        font-size: 3.5rem;
+    }
+    p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        width: 58rem;
+    }
+}
+.exportContent2 {
+    display: flex;
+    justify-content: space-between;
+}

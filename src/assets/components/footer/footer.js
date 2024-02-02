@@ -18,7 +18,7 @@ function Footer() {
         <img src={footer_img5} alt='footer_img'/>
       </div>
 
-      <footer className='container footer_content'>
+      <footer className='custon_container footer_content'>
 
       <div className='foooter_logo_div'>
         <h1>AVROMAK</h1>

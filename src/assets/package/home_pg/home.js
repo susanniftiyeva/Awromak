@@ -41,7 +41,7 @@ function Home() {
   }
 
   return (
-    <div className='home_body container'>
+    <div className='home_body custon_container'>
       <header className='header_content'>
           <h1> Zövqü və ruhu zənginləşdirən keyfiyyətli məhsul hazırlamaqla uğur qazanırıq</h1>
           <img src={right_arc} />

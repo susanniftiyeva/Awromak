@@ -4,7 +4,7 @@ import "../../css/about_pg/about.scss";
 
 const about = () => {
   return (
-    <div className="container">
+    <div className="custon_container">
       <div className="section-about">
         <h1 className="border-bottom">
           Ağcabədi və Biləsuvar`daki 12000 hektar şəxsi ərazidən gələn Premium

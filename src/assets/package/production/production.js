@@ -3,7 +3,7 @@ import "../../css/production_pg/production.scss";
 import Image from "../../img/images/production_pg/Image_production";
 const Production = () => {
   return (
-    <div className="container">
+    <div className="custon_container">
       <div className="section">
         <h1 className="border-bottom">
           Avromak şirketi yarandigi gunden keyfiyyetli mehsul ve mehsullarin

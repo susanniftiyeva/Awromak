@@ -37,7 +37,7 @@ function Header() {
 
   
 
-        <div className='header_body container'>
+        <div className='header_body custon_container'>
 
             <Link to='/'>
                 <img src={logo} alt='logo'/>

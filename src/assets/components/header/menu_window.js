@@ -17,7 +17,7 @@ function Menu_window() {
           <Link to="/retail">Retail</Link>
         </li>
         <li>
-          <Link to="/ixrac">İxrac</Link>
+          <Link to="/export">İxrac</Link>
         </li>
         <li>
           <Link to="/contact">Əlaqə</Link>

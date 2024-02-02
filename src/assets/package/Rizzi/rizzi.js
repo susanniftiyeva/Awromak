@@ -17,7 +17,7 @@ function Rizzi() {
         <title>Rizzi</title>
         <meta name="description" content="Rizzi makaronlari" />
     </Helmet>
-    <div className='container '>
+    <div className='custon_container '>
     
       <section className='rizzi_section'>
         <h1>Pasta di Rizzi </h1>
