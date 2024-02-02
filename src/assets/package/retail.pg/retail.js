@@ -4,7 +4,7 @@ import Image_retail from "../../img/images/retail_pg/Image_retail";
 import iconrt from "../../img/icon/retail/retail-icon.png";
 const retail = () => {
   return (
-    <div className="container">
+    <div className="custon_container">
       <div className="section-retail">
         <div className="article-rt1">
           <div>

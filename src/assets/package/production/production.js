@@ -5,7 +5,7 @@ import up_arch from '../../img/icon/home/right_up.svg';
 import { Link } from 'react-router-dom';
 const Production = () => {
   return (
-    <div className="container">
+    <div className="custon_container">
       <div className="section">
         <h1 className="border-bottom">
           Avromak şirketi yarandigi gunden keyfiyyetli mehsul ve mehsullarin

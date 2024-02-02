@@ -10,7 +10,12 @@ import Menu_window from './assets/components/header/menu_window';
 import About from './assets/package/about.pg/about';
 import Retail from './assets/package/retail.pg/retail';
 import Kelebek from './assets/package/kelebek/kelebek';
+
+import Export from './assets/package/export/export';
+
+
 import Contact from './assets/package/contact/contact';
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +29,11 @@ function App() {
       <Route path='/about'  element={<About/>} />
       <Route path='/retail'  element={<Retail/>}  />
       <Route path='/kelebek' element={<Kelebek/>}/>
+
+      <Route path='/export' element={<Export/>} />
+
       <Route path='/contact' element={<Contact/>} />
+
     </Routes>
 
       <Footer/>
