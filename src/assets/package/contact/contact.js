@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="form">
           <form>
             <label>Ad və Soyad</label>
-            <input type="text" />
+            <input type="text"  />
 
             <label>Email</label>
             <input type="email" />
