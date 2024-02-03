@@ -10,6 +10,8 @@ import Menu_window from './assets/components/header/menu_window';
 import About from './assets/package/about.pg/about';
 import Retail from './assets/package/retail.pg/retail';
 import Kelebek from './assets/package/kelebek/kelebek';
+import Makara from './assets/package/makara/makara';
+import Favelli from './assets/package/favelli/favelli';
 import Export from './assets/package/export/export';
 import Contact from './assets/package/contact/contact';
 import Meat from './assets/package/meat.pg/meat';
@@ -30,6 +32,8 @@ function App() {
       <Route path='/export' element={<Export/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/meat' element={<Meat/>} />
+      <Route path='/makara' element={<Makara/>}/>
+      <Route path='/favelli' element={<Favelli/>}/>
 
     </Routes>
 
