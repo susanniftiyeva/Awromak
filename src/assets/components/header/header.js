@@ -40,11 +40,11 @@ function Header() {
         <div className='header_body custon_container'>
 
             <Link to='/'>
-                <img src={logo} alt='logo'/>
+                <img className='logoBtn' src={logo} alt='logo'/>
             </Link>
             
             <ul className='menu'>
-                <li>
+                {/* <li>
                     <Link to="/" >Home</Link>
                 </li>
                 <li>
@@ -64,7 +64,7 @@ function Header() {
             </li>
             <li>
                 <Link to="/meat" >Meat</Link>
-            </li>
+            </li> */}
                 <li>
                     {/* <Link to="/menu_window" >= Menu</Link> */}
                     <div className='menu_icons'>
