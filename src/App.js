@@ -12,9 +12,11 @@ import Retail from './assets/package/retail.pg/retail';
 import Kelebek from './assets/package/kelebek/kelebek';
 import Makara from './assets/package/makara/makara';
 import Favelli from './assets/package/favelli/favelli';
+import Flour from './assets/package/flour/flour';
 import Export from './assets/package/export/export';
 import Contact from './assets/package/contact/contact';
 import Meat from './assets/package/meat.pg/meat';
+
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
 
       <Route path='/makara' element={<Makara/>}/>
       <Route path='/favelli' element={<Favelli/>}/>
+
+      <Route path='/flour' element={<Flour/>}/>
     </Routes>
 
       <Footer/>
