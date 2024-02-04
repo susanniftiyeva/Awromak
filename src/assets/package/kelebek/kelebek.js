@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/kelebek/kelebek.scss";
 import { Helmet } from "react-helmet";
-import kelebek_main from "../../img/images/kelebek_img/mask_group.jpg";
+import kelebek_mainK from "../../img/images/kelebek_img/mask_group.jpg";
 import kelebek_img1 from "../../img/images/kelebek_img/img1.png";
 import kelebek_img2 from "../../img/images/kelebek_img/img2.png";
 
@@ -18,8 +18,8 @@ function Kelebek() {
           {/* <hr /> */}
 
           <div className="article_img">
-            <div className="articleImgDiv">
-              {/* <img src={kelebek_main}/> */}
+            <div className="articleImgDiv ">
+              <img src={kelebek_mainK}/>
             </div>
 
             <div className="border_div">

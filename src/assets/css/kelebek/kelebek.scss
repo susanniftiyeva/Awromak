@@ -9,6 +9,9 @@
         background-image: url(../../img/images/kelebek_img/mask_group.jpg);
         background-size: cover;
         margin: 3rem;
+        img {
+            display: none;
+        }
     }
     // img{
     //     padding: 2rem 0;
@@ -89,15 +92,21 @@
 .noRborder {
     border-right: unset !important;
 }
-@media screen and (max-width:376px) {
+@media screen and (max-width: 376px) {
     .pastas_kelebek div {
         border-right: unset;
     }
     .articleImgDiv{
         width:100% !important;
         height: 100%;
+        background-image: unset !important;
+
+        img {
+            width: 100%;
+            display: block !important;
+        }
     }
     .article_img{
-        flex-direction: column ;
+        flex-direction: column;
     }
 }
