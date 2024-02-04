@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/flour/flour.scss";
 import { Helmet } from "react-helmet";
-import kelebek_main from "../../img/images/kelebek_img/mask_group.jpg";
+import flour_main from "../../img/images/flour_img/img4.png";
 import flour_img2 from "../../img/images/flour_img/img2.png";
 import flour_img3 from "../../img/images/flour_img/img3.png";
 
@@ -20,7 +20,7 @@ function Flour() {
 
           <div className="article_img">
             <div className="articleImgDiv">
-              {/* <img src={flour_main}/> */}
+                {/* <img src={flour_main}/> */}
             </div>
 
             <div className="border_div">
