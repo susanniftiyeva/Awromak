@@ -20,7 +20,7 @@
     border-bottom: 1px solid;
     div {
         width: 50%;
-        padding: 5rem 5rem;
+        padding: 5rem 5rem !important;
     }
     .rightBorder {
         border-right: 1px solid;
@@ -36,5 +36,61 @@
 }
 .exportContent2 {
     display: flex;
-    justify-content: space-between;
+
+    .imgDiv2 {
+        width: 50%;
+        border-right: 1px solid;
+        padding-top: 5rem;
+        text-align: center;
+    }
+}
+
+.exportForm {
+    width: 50%;
+    padding-top: 10rem;
+    padding-left: 5rem;
+
+    h5 {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    textarea {
+        width: 40rem;
+        margin-top: 3rem;
+        background-color: unset;
+        padding: 0 5rem 5rem 0;
+        border: none;
+        border-bottom: 1px solid;
+        font-size: 1.5rem;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-start;
+
+        align-items: center;
+        // justify-content: center;
+        padding-top: 5rem;
+        
+
+        input {
+            width: 30rem;
+            background-color: unset;
+            border: none;
+            padding: 1rem 5rem 1rem 0;
+            border-bottom: 1px solid;
+            font-size: 1.5rem;
+            margin-top: 3rem;
+
+        }
+
+
+        div {
+            display: flex;
+            justify-content: space-around;
+            gap: 5rem;
+        }
+    }
 }
