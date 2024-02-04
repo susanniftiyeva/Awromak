@@ -30,7 +30,6 @@ function App() {
       <Route path='/export' element={<Export/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/meat' element={<Meat/>} />
-
     </Routes>
 
       <Footer/>
