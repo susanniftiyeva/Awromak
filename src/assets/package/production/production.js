@@ -13,7 +13,7 @@ const Production = () => {
           xarici bazarda genish nufuz qazanmishdir.
         </h1>
 
-        <img className="img1" src={Image.image82} />
+       <div className="img1Div"> <img className="img1" src={Image.image82} /></div>
         <p>
           Avromak MMC olaraq, qurulduğumuz gündən gücünü torpaqdan alan kənd
           təsərrüfatı məhsullarımızla fəaliyyət göstəririk. İnvestisiyalarımızı
@@ -120,9 +120,9 @@ const Production = () => {
       <div className="section">
         <h3>Private label</h3>
         <div className="imags">
-          <img src={Image.pasta1} />
-          <img src={Image.pasta2} />
-          <img src={Image.pasta3} />
+          <img className="item" src={Image.pasta1} />
+          <img className="item1"src={Image.pasta2} />
+          <img className="item2" src={Image.pasta3} />
         </div>
         <p>
           Keyfiyyətli, sağlam, ləzzətli makaron və unlarımız müştərilərimizin

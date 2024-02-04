@@ -92,7 +92,7 @@ function Rizzi() {
           </div>
 
 
-          <div>
+        
 
           <div className="noRborder">
 
@@ -118,10 +118,12 @@ function Rizzi() {
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>
           </div>
+         
         </section>
+        
       </div>
     </>
-  );
+  )
 }
 
 export default Rizzi;
