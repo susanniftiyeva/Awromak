@@ -84,12 +84,6 @@ function Favelli() {
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
-          <div className="jContStart">
-            <img src={favelli_img2} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
           <div className="noRborder">
             <img src={favelli_img2} />
             <hr />
@@ -102,7 +96,13 @@ function Favelli() {
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
-          <div className="">
+          <div>
+            <img src={favelli_img2} />
+            <hr />
+            <p>FAVELLİ PIPE RIGATE</p>
+          </div>
+
+          <div className="noRborder">
             <img src={favelli_img2} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
@@ -113,12 +113,12 @@ function Favelli() {
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
-          <div className="noRborder">
+          <div >
             <img src={favelli_img2} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
-          <div className="">
+          <div className="noRborder">
             <img src={favelli_img2} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
