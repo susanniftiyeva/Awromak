@@ -1,0 +1,63 @@
+.article_img {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+  }
+  .article_img img {
+    float: left;
+    padding: 2rem 0;
+  }
+  .article_img p {
+    font-size: 1.4rem;
+  }
+  .article_img h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .article_img article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start !important;
+    padding-left: 5.6rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    line-height: 3rem;
+  }
+  
+  .border_div {
+    border-left: 1px solid;
+  }
+  
+  .favelli_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .favelli_section h1 {
+    font-weight: 500;
+  }
+  .favelli_section hr {
+    margin: 3.5rem 0;
+  }
+  
+  .erkoyun {
+    text-align: start;
+  }
+  
+  .pastas_favelli {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    border-top: 1px solid;
+  }
+  .pastas_favelli div {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .pastas_favelli div img {
+    padding: 1rem;
+  }/*# sourceMappingURL=rizzi.css.map */
