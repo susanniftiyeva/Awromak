@@ -34,11 +34,12 @@ function App() {
       <Route path='/export' element={<Export/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/meat' element={<Meat/>} />
+
+
       <Route path='/makara' element={<Makara/>}/>
       <Route path='/favelli' element={<Favelli/>}/>
+
       <Route path='/flour' element={<Flour/>}/>
-
-
     </Routes>
 
       <Footer/>
