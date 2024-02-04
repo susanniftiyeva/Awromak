@@ -124,8 +124,28 @@
     }
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width: 376px) {
+
+    .header_content {
+        margin-top: 10rem;
+    }
     .mehsullar_section{
         flex-direction: column;
+    }
+
+    .second_part {
+        .secondPheroImg {
+            width: 345px;
+        }
+    }
+
+    .mehsul_img {
+        img {
+        width: 345px;
+
+        }
+    }
+    .home_slider_txt {
+        display: none;
     }
 }

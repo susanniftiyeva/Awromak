@@ -92,7 +92,7 @@ function Home() {
 
         <div className='second_part'>
 
-          <img src={main_img_header2} />
+          <img className='secondPheroImg' src={main_img_header2} />
           <div className='second_part_txt'>
             <article>
               <p>Avromak MMC istehsal sahəsində peşəkar və təcrübəyə malik şirkətlərdən biridir. Çeşidli ət və ət məhsulları, un və un məhsullarının istehsalı, pərakəndə və topdan satışı ilə məşğuldur.</p>
