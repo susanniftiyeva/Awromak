@@ -123,3 +123,9 @@
         }
     }
 }
+
+@media screen and (max-width:376px) {
+    .mehsullar_section{
+        flex-direction: column;
+    }
+}
