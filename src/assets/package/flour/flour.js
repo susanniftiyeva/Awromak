@@ -19,8 +19,8 @@ function Flour() {
           {/* <hr /> */}
 
           <div className="article_img">
-            <div className="articleImgDiv">
-                {/* <img src={flour_main}/> */}
+            <div className="articleImgDiv flourImg2">
+                <img src={flour_main}/>
             </div>
 
             <div className="border_div">

@@ -18,7 +18,7 @@ function Kelebek() {
           {/* <hr /> */}
 
           <div className="article_img">
-            <div className="articleImgDiv ">
+            <div className="articleImgDiv kelebekImg3">
               <img src={kelebek_mainK}/>
             </div>
 

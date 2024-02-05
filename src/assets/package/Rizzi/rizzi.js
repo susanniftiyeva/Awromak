@@ -93,7 +93,7 @@ function Rizzi() {
 
 
         
-
+            <div>
             <img src={rizzi_img4} />
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>

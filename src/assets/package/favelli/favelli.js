@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/favelli/favelli.scss";
 import { Helmet } from "react-helmet";
-import kelebek_main from "../../img/images/kelebek_img/mask_group.jpg";
+import favelli_main from "../../img/images/favelli_img/img1.jpg";
 import favelli_img2 from "../../img/images/favelli_img/img2.png";
 import favelli_img3 from "../../img/images/favelli_img/img3.png";
 
@@ -19,8 +19,8 @@ function Favelli() {
           {/* <hr /> */}
 
           <div className="article_img">
-            <div className="articleImgDiv">
-              {/* <img src={kelebek_main}/> */}
+            <div className="articleImgDiv favelliImg3">
+              <img src={favelli_main}/>
             </div>
 
             <div className="border_div">

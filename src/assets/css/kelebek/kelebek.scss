@@ -6,12 +6,15 @@
     border-bottom: 2px solid;
     .articleImgDiv {
         width: 50%;
-        background-image: url(../../img/images/kelebek_img/mask_group.jpg);
         background-size: cover;
         margin: 3rem;
         img {
             display: none;
         }
+    }
+    .kelebekImg3{
+        background-image: url(../../img/images/kelebek_img/mask_group.jpg);
+        background-position: left !important;
     }
     // img{
     //     padding: 2rem 0;
@@ -108,5 +111,12 @@
     }
     .article_img{
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 376px){
+    .pastas_makara{
+        div {
+            border-right: none;
+        }
     }
 }

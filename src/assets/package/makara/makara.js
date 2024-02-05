@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/makara/makara.scss";
 import { Helmet } from "react-helmet";
-import kelebek_main from "../../img/images/kelebek_img/mask_group.jpg";
+import makara_main from "../../img/images/makara_img/img1.jpg";
 import makara_img2 from "../../img/images/makara_img/img2.png";
 import makara_img3 from "../../img/images/makara_img/img3.png";
 
@@ -19,8 +19,8 @@ function Makara() {
           {/* <hr /> */}
 
           <div className="article_img">
-            <div className="articleImgDiv">
-              {/* <img src={kelebek_main}/> */}
+            <div className="articleImgDiv makaraImg2">
+              <img src={makara_main}/>
             </div>
 
             <div className="border_div">
@@ -84,13 +84,13 @@ function Makara() {
             <p>Makara STORTELLI</p>
           </div>
 
-          <div className="jContStart">
+          <div className="noRborder">
             <img src={makara_img2} />
             <hr />
             <p>Makara PIPE RIGATE</p>
           </div>
 
-          <div className="noRborder" >
+          <div >
             <img src={makara_img2} />
             <hr />
             <p>Makara STORTELLI</p>
@@ -102,7 +102,7 @@ function Makara() {
             <p>Makara VERMICELLES</p>
           </div>
 
-          <div className="">
+          <div className="noRborder">
             <img src={makara_img2} />
             <hr />
             <p>Makara STORTELLI</p>
@@ -113,12 +113,12 @@ function Makara() {
             <hr />
             <p>Makara STORTELLI</p>
           </div>
-          <div className="noRborder">
+          <div >
             <img src={makara_img2} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>
-          <div className="noRborder">
+          <div className="noRborder" >
             <img src={makara_img3} />
             <hr />
             <p>Makara STORTELLI</p>
