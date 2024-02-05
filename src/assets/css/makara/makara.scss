@@ -95,10 +95,14 @@
     border-right: unset !important;
 }
 @media screen and (max-width: 376px){
-.articleImgDiv{
-    // img{
-    //     display: block;
-    // }
-}
+    @media screen and (max-width: 376px){
+        .pastas_makara{
+            div {
+                border-right: none;
+            }
+        }
+    }
     
 }
+    
+                
