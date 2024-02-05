@@ -18,7 +18,7 @@ function Rizzi() {
       </Helmet>
       <div className="custon_container ">
         <section className="rizzi_section">
-          <h1>Pasta di Rizzi </h1>
+          <h1 className="pastaBasliq">Pasta di Rizzi </h1>
           {/* <hr /> */}
 
           <div className="article_img">
@@ -71,7 +71,7 @@ function Rizzi() {
           </div>
         </section>
 
-        <h1>Pasta di Rizzi məhsulları</h1>
+        <h1 className="pastaBasliq">Pasta di Rizzi məhsulları</h1>
         <section className="pastas_rizzi">
           <div>
             <img src={rizzi_img1} />

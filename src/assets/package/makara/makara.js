@@ -15,7 +15,7 @@ function Makara() {
       </Helmet>
       <div className="custon_container ">
         <section className="makara_section">
-          <h1>MAKARA</h1>
+          <h1 className="pastaBasliq">MAKARA</h1>
           {/* <hr /> */}
 
           <div className="article_img">
@@ -70,7 +70,7 @@ function Makara() {
           </div>
         </section>
 
-        <h1>kelebek məhsulları</h1>
+        <h1 className="pastaBasliq">Makara məhsulları</h1>
         <section className="pastas_makara">
           <div>
             <img src={makara_img2} />
