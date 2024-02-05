@@ -124,8 +124,55 @@
     }
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width: 376px) {
+
+    .header_content {
+        margin-top: 10rem;
+        h1 {
+            font-size: 35px;
+        }
+    }
     .mehsullar_section{
         flex-direction: column;
+    }
+    .second_part {
+        display: flex;
+        flex-direction: column-reverse;
+
+        article {
+            width: 100%;
+            p {
+                width: 100%;
+                font-size: 16px;
+            }
+        }
+        a {
+            margin-bottom: 30px;
+            p {
+                font-size: 16px;
+            }
+        }
+        .secondPheroImg {
+            width: 345px;
+        }
+    }
+
+    .mehsul_img {
+        img {
+        width: 345px;
+
+        }
+    }
+    .home_slider_txt {
+        display: none;
+    }
+    .mehsullar_div {
+        margin-bottom: 40px;
+        h5 {
+            font-size: 16px;
+        }
+        h6 {
+            font-size: 40px !important;
+        }
     }
 }

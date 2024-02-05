@@ -70,6 +70,15 @@ function Export() {
               <div>
                 <textarea placeholder="Mesajınız"></textarea>
               </div>
+
+              <div className="ExportBtnDiv">
+                <button>Göndər</button>
+              </div>
+              
+          <article>
+            <p>Qiymət almaq və məhsul və xidmətlərimiz haqqında daha ətraflı məlumat almaq üçün export@avromak.az ünvanına e-poçt göndərməklə və ya əlaqə formasından istifadə etməklə bizimlə əlaqə saxlaya bilərsiniz.</p>
+          </article>
+
           </div>
         </div>
       </section>

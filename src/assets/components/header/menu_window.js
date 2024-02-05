@@ -11,7 +11,7 @@ function Menu_window() {
           <img src={up_icon} alt='up icon'/>
         </li>
         <li>
-          <Link to="/istehsalat">İstehsalat</Link>
+          <Link to="/production">İstehsalat</Link>
         </li>
         <li>
           <Link to="/retail">Retail</Link>

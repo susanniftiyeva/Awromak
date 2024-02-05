@@ -205,3 +205,47 @@ li {
     justify-content: space-between;
 }
 
+
+// HEADER 
+
+@media screen and (max-width: 376px) {
+
+    .header_body {
+        width: 100%;
+    }
+    .header_content {
+        img {
+            display: none;
+        }
+    }
+    .logoBtn {
+        width: 60%;
+    }
+}
+.second_part_txt {
+    width: 100%;
+    margin: 0 !important;
+    p {
+        margin: 0 !important;
+    }
+}
+
+
+// FOOTER 
+
+@media screen and (max-width: 376px) {
+    
+    .footer_body {
+        width: 100%;
+    }
+    .foooter_logo_div {
+        h1 {
+            font-size: 60px;
+        }
+    }
+
+    html {
+        font-size: 5px;
+    }
+}
+
