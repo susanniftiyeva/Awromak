@@ -163,8 +163,8 @@ function Home() {
             <h6 className='mehsul_header'>Un məhsulları</h6>
           </div>
           <div>
-            <Link to='/favelli'>
-              <h5>Favelli Un</h5>
+            <Link to='/flour'>
+              <h5>Un məhsulları</h5>
               <img src={up_arch} />
             </Link>
           </div>

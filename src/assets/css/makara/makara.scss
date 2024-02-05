@@ -6,9 +6,14 @@
     border-bottom: 2px solid;
     .articleImgDiv {
         width: 50%;
-        background-image: url(../../img/images/makara_img/img1.jpg);
         background-size: cover;
         margin: 3rem;
+        img{
+            display: none;
+        }
+    }
+    .makaraImg2{
+        background-image: url(../../img/images/makara_img/img1.jpg);
     }
     // img{
     //     padding: 2rem 0;
@@ -88,4 +93,12 @@
 }
 .noRborder {
     border-right: unset !important;
+}
+@media screen and (max-width: 376px){
+.articleImgDiv{
+    // img{
+    //     display: block;
+    // }
+}
+    
 }

@@ -5,10 +5,12 @@
     border-top: 2px solid;
     border-bottom: 2px solid;
     .articleImgDiv {
-        width: 50%;
-        background-image: url(../../img/images/favelli_img/img1.jpg);
+        width: 50%;       
         background-size: cover;
         margin: 3rem;
+    }
+    .favelliImg3{
+        background-image: url(../../img/images/favelli_img/img1.jpg);
     }
     // img{
     //     padding: 2rem 0;
@@ -88,4 +90,15 @@
 }
 .noRborder {
     border-right: unset !important;
+}
+@media screen and (max-width: 376px){
+    .pastas_favelli{
+        div {
+            border-right: none;
+        }
+    }
+    .border_div{
+        border-left: none !important;
+    }
+    
 }
