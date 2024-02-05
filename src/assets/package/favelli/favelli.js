@@ -15,7 +15,7 @@ function Favelli() {
       </Helmet>
       <div className="custon_container ">
         <section className="favelli_section">
-          <h1>FAVELLI</h1>
+          <h1 className="pastaBasliq">FAVELLI</h1>
           {/* <hr /> */}
 
           <div className="article_img">
@@ -70,7 +70,7 @@ function Favelli() {
           </div>
         </section>
 
-        <h1>favelli məhsulları</h1>
+        <h1 className="pastaBasliq">favelli məhsulları</h1>
         <section className="pastas_favelli">
           <div>
             <img src={favelli_img2} />

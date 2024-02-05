@@ -14,7 +14,7 @@ function Kelebek() {
       </Helmet>
       <div className="custon_container ">
         <section className="kelebek_section">
-          <h1>KELEBEK</h1>
+          <h1 className="pastaBasliq">KELEBEK</h1>
           {/* <hr /> */}
 
           <div className="article_img">
@@ -69,7 +69,7 @@ function Kelebek() {
           </div>
         </section>
 
-        <h1>kelebek məhsulları</h1>
+        <h1 className="pastaBasliq">kelebek məhsulları</h1>
         <section className="pastas_kelebek">
           <div>
             <img src={kelebek_img1} />

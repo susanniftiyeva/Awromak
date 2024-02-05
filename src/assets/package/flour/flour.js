@@ -15,7 +15,7 @@ function Flour() {
       </Helmet>
       <div className="custon_container ">
         <section className="flour_section">
-          <h1>Un məhsulları</h1>
+          <h1 className="pastaBasliq">Un məhsulları</h1>
           {/* <hr /> */}
 
           <div className="article_img">
@@ -57,7 +57,7 @@ function Flour() {
           </div>
         </section>
 
-        <h1>Un məhsulları</h1>
+        <h1 className="pastaBasliq">Un məhsulları</h1>
         <section className="pastas_flour">
           <div>
             <img src={flour_img2} />
