@@ -32,15 +32,15 @@ const Production = () => {
         </p>
         <div className="parent">
           <div className="hektar">
-            <span>12000 ha</span>
-            <span>
+            <span className="haa">12000 ha</span>
+            <span className="ekin">
               2500 m<sup>2</sup>
             </span>
           </div>
           <hr />
 
           <div className="sahe">
-            <span>ƏKİN SAHƏSİ</span>
+            <span >ƏKİN SAHƏSİ</span>
             <span>İSTEHSAL SAHƏSİ</span>
           </div>
           <hr />

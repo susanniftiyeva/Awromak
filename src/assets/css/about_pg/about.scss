@@ -36,6 +36,10 @@
     margin-top: 4.3rem;
     margin-bottom: 15px;
     margin-right: 25rem;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
   }
   span {
     width: 67rem;
@@ -123,5 +127,45 @@
     width: 750px;
     padding: 44px 0 46px 55px;
   
+  }
+}
+
+
+@media screen and (max-width:376px) {
+  .section-about{
+    display: flex;
+    flex-direction: column;
+    // margin: 0 -22px !important;
+    h1{
+      font-size: 35px;
+    }
+    h3{
+      font-size: 35px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .article-ab1{
+    // margin-left: -22px;
+ 
+    img{
+      margin-right: 0px;
+    }
+    p{
+      margin-right: 0px;
+    }
+    span{
+      margin-right: 8px;
+    }
+  }
+  .article-ab2{
+    flex-direction: column;
+  }
+  .article-ab3{
+    flex-direction: column;
+  }
+  .article-ab4{
+    flex-direction: column;
   }
 }
