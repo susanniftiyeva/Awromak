@@ -34,6 +34,7 @@ const about = () => {
         <div className="article-ab2">
           <div>
             <h3>Vizyonumuz</h3>
+            <div className="mobileImg"> <img src={Image_about.rectangle6} /></div>
             <p>
               Bütün tərəfdaşlarımız və müştərilərimiz üçün davamlı olaraq dəyər
               yaradan yenilikçi bir şirkət olmaq
@@ -45,13 +46,16 @@ const about = () => {
               etməkdir.
             </p>
           </div>
-          <img src={Image_about.rectangle6} />
+         <div className="desktopImg"> <img src={Image_about.rectangle6} /></div>
         </div>
 
         <div className="article-ab3">
+          <div className="desktopImg">
           <img src={Image_about.image76} />
+          </div>
           <div>
             <h3>Misyamız</h3>
+            <div className="mobileImg"><img src={Image_about.image76} /></div>
             <p>İnsanların damaqında və şüurunda qalıcı bir dad olmaq</p>
             <p>
               Müştərilərimizi və əməkdaşlarımızı dinləyərək yaranan problemləri
@@ -64,6 +68,7 @@ const about = () => {
         <div className="article-ab4">
           <div>
             <h3>Məqsədimiz</h3>
+            <div className="mobileImg"><img src={Image_about.rectangle7} /></div>
             <p>
               Azərbaycan bazarında mövcud olan bütün ticarət nöqtələrinə yüksək
               keyfiyyətli satış xidməti göstərmək, alıcı rəğbətini qazanmaq, bu
@@ -78,7 +83,7 @@ const about = () => {
               həyata keçirməsi inkişafımıza daima təkan verir.
             </p>
           </div>
-          <img src={Image_about.rectangle7} />
+          <div className="desktopImg"><img src={Image_about.rectangle7} /></div>
         </div>
 
         <div className="article-ab5">

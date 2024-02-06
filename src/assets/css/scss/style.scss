@@ -30,7 +30,20 @@ li {
 }
 
 
-
+@media screen and (max-width:391px){
+    .desktopImg{
+        display: none;
+      }
+      .mobileImg{
+        display: block;
+        margin: 20px;
+      }
+}
+  
+  
+  .desktopImg{
+    margin: 46px 0;
+  }
 
 .custon_container {
   padding: 11rem 3rem 5rem 3rem;

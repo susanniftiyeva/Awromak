@@ -9,6 +9,7 @@ const retail = () => {
         <div className="article-rt1">
           <div>
             <h3>“AVROMAK MMC” şirkətinin Rublyovski mağazalar şəbəkəsi</h3>
+            <div className="mobileImg"><img src={Image_retail.rectangle30} /></div>
             <p>
               Şirkətin fəaliyyəti, öz istehsal sahələrinin, həmçinin
               distribüterlik etdiyi şirkətlərin məhsullarının satışını təmin
@@ -16,7 +17,7 @@ const retail = () => {
               məhsullarının istehsalı, pərakəndə və topdan satışı ilə məşğuldur.
             </p>
           </div>
-          <img src={Image_retail.rectangle30} />
+       <div className="desktopImg"><img src={Image_retail.rectangle30} /></div>
         </div>
 
         <div className="katalog">
@@ -34,7 +35,7 @@ const retail = () => {
           </div>
         </div>
 
-        <div className="h3">
+        <div className="h3Retail">
         <h3>Mağazalarımız</h3>
         </div>
         

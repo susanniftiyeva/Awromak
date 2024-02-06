@@ -2,7 +2,8 @@ import React from "react";
 import "../../css/contact/contact.scss";
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="custon_container">
+<div className="container">
       <h1 className="sssj">Bizimlə əlaqə</h1>
       <div className="contact-section">
         <div className="form">
@@ -44,6 +45,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </div>
+    
   )
 }
 
