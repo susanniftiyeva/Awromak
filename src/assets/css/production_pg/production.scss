@@ -9,7 +9,7 @@
   flex-shrink: 0;
   margin-top: 3rem;
 }
-.img1Div{
+.img1Div {
   width: fit-content;
 }
 
@@ -36,7 +36,6 @@
   }
 }
 .parent {
-  // margin-left: 60px;
   .hektar {
     display: flex;
     justify-content: space-between;
@@ -78,35 +77,34 @@
   display: flex;
   justify-content: space-between;
   a {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px solid;
-      padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 2rem 0;
   }
   a {
-      font-size: 2rem;
-      font-weight: 500;
-      color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
   }
 }
 .mehsullar_div {
   width: fit-content;
   position: relative;
-
 }
 .mehsul_img {
   .mehsul_header {
-  content: 'Ət məhsulları';
-  position: absolute;
-  text-align: center;
-  font-weight: 500;
-  bottom: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 4rem;
-  width: 100%;
-}
+    content: "Ət məhsulları";
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 4rem;
+    width: 100%;
+  }
 }
 .altbashliq {
   font-size: 4rem;
@@ -116,71 +114,90 @@
 }
 
 .imags {
-  // // width: 132.6rem;
-  // height: 58rem;
   background: #d5d5d5;
 }
 
-
-@media screen and (max-width:376px){
-  .img1{
-  visibility:hidden;
+@media screen and (max-width: 376px) {
+  .section{
+    margin-left: -2px;
+    h1 {
+      font-size: 35px;
+    }
+    h2{
+      font-size: 35px;
+    }
+    h3{
+      font-size: 35px;
+    }
   }
-.img1Div{
-  width: 100%;
-  background-image: url(../../img/images/production_pg/Mask55.png) ;
-  background-size: cover;
-  background-color: red;
-}
-.hektar{
-  flex-direction: column;
-}
-.sahe{
-  // flex-direction: column;
-  // justify-content: unset;
-  // gap: 0px !important;
-  display: none;
-}
-.imags{
-  display: grid;
-  
-  // flex-direction: column;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: auto auto;
- position: relative;
-  // // flex-wrap: wrap !important;
-
-}
-.item1{
-//  width: 100%;
-// align-items: center;
-width: 12.7rem;
-// justify-content: center;
-margin-left: 2rem;
-justify-self: center;
-
-}
-.item2{
-  //  width: 100%;
-  // align-items: center;
-  width: 19.9rem;
-  // justify-content: center;
-  justify-self: center;
-  margin-right: 2rem;
+  .img1 {
+    visibility: hidden;
   }
-.item{
-  justify-self: center;
-  grid-column: span 2;
-  width: 100%;
-  // margin-left: 6rem;
-}
- html{
-  font-size: 12px;
- }
- .section{
-  p{
+  .img1Div {
     width: 100%;
- height: auto;
+    background-image: url(../../img/images/production_pg/Mask55.png);
+    background-size: cover;
+    background-color: red;
   }
- }
+  .parent {
+    hr {
+      display: none;
+    }
+  }
+
+  .imags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    // margin: -30px;
+  }
+  .item1 {
+    width: 127.02px;
+    margin-left: 2rem;
+    justify-self: center;
+  }
+  .item2 {
+    width: 168px;
+    justify-self: center;
+    margin-right: 2rem;
+  }
+  .item {
+    justify-self: center;
+    grid-column: span 2;
+    width: 100%;
+  }
+  html {
+    font-size: 12px;
+  }
+  .section {
+    p {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .sahe {
+    display: none !important;
+  }
+  .hektar {
+    flex-direction: column;
+    font-size: 70px;
+    gap: 20px;
+    .haa::after {
+      width: 100%;
+      content: "ƏKİN SAHƏSİ";
+      font-size: 16px;
+      display: inline-block;
+      border-top: 1px solid;
+      padding-top: 15px;
+    }
+    .ekin::after {
+      width: 100%;
+      content: "İSTEHSAL SAHƏSİ";
+      font-size: 16px;
+      display: inline-block;
+      border-top: 1px solid;
+      padding-top: 15px;
+    }
+  }
 }
