@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from '../../img/icon/header/Logo.svg'
+import up_icon from '../../img/images/home_pg/icon/bot_icon.svg';
 import menuLogo from '../../img/icon/header/menu_icon.svg'
 
 const Header = (props) => {
@@ -42,24 +43,23 @@ const Header = (props) => {
         <div className="menu align-items-center  position-relative">
           <ul className="p-0 nav-links my-lg-0 my-5 animated fadeInRightBig">
             <li>
-              <a href="/about-us" className="d-flex align-items-baseline">
-              Haqqımızda
-              <img className="ml-4" src={menuLogo} alt=""/>
+              <a href="/about" className="d-flex align-items-baseline">Haqqımızda
+              <img className="ms-4" src={up_icon} alt=""/>
               </a>
             </li>
             <li>
               <a href="/production" className="d-flex align-items-baseline"> Məhsullar
-              <img className="ml-4" src={menuLogo} alt=""/></a>
+              <img className="ms-4" src={up_icon} alt=""/></a>
             </li>
             <li>
               <a href="/retail" className="d-flex align-items-baseline">Retail
-              <img className="ml-4" src={menuLogo} alt=""/></a>
+              <img className="ms-4" src={up_icon} alt=""/></a>
             </li>
             <li>
-              <a href="/export" className="d-flex align-items-baseline"> Export <img className="ml-4" src={menuLogo} alt=""/> </a>
+              <a href="/export" className="d-flex align-items-baseline"> Export <img className="ms-4" src={up_icon} alt=""/> </a>
             </li>
             <li>
-              <a href="/contact" className="d-flex align-items-baseline"> Contact <img className="ml-4" src={menuLogo} alt=""/></a>
+              <a href="/contact" className="d-flex align-items-baseline"> Contact <img className="ms-4" src={up_icon} alt=""/></a>
             </li>
           </ul>
 
