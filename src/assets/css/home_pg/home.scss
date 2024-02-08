@@ -5,11 +5,13 @@
 .header_content {
     display: flex;
     justify-content: space-between;
+
     h1 {
         font-size: 5rem;
         font-weight: 300;
     }
 }
+
 .home_slider_txt {
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -18,18 +20,22 @@
     padding: 2rem 0;
     margin-top: 1rem;
 }
+
 .biger_img_home {
-    img{
+    img {
         width: 100%;
     }
 }
+
 .second_part {
     display: flex;
     align-items: flex-end;
     margin-top: 15rem;
 }
+
 .second_part_txt {
     margin-left: 3rem;
+
     article {
         p {
             font-size: 2rem;
@@ -38,54 +44,64 @@
             width: 55%;
         }
     }
+
     a {
         color: #000;
         display: flex;
         font-weight: 600;
         margin: 5.5rem 2rem 0 2rem;
+
         img {
             font-weight: 600;
         }
+
         p {
             font-size: 1.8rem;
             margin-right: 1rem !important;
         }
     }
 }
+
 .mehsullar_section {
     display: flex;
     justify-content: space-between;
+
     a {
         display: flex;
         justify-content: space-between;
         border-bottom: 1px solid;
         padding: 2rem 0;
-    }
-    a {
-        font-size: 2rem;
+
         font-weight: 500;
         color: #000;
+
+        h5 {
+            font-size: 20px;
+        }
     }
 }
+
 .mehsullar_div {
     width: fit-content;
     position: relative;
 
 }
+
 .mehsul_img {
     .mehsul_header {
-    content: 'Ət məhsulları';
-    position: absolute;
-    text-align: center;
-    font-weight: 500;
-    bottom: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 4rem;
-    width: 100%;
+        content: 'Ət məhsulları';
+        position: absolute;
+        text-align: center;
+        font-weight: 500;
+        bottom: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 4rem;
+        width: 100%;
+    }
 }
-}
+
 .altbashliq {
     font-size: 4rem;
     margin-top: 17rem;
@@ -99,24 +115,29 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 9rem;
+
     :first-child {
         font-size: 1.6rem;
         font-weight: 700;
     }
+
     :nth-child(2) {
         font-size: 1.6rem;
         margin-top: 2rem;
     }
 }
+
 .slide2 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 7rem;
+
     div {
         display: flex;
         align-items: center;
         justify-content: center;
+
         img {
             width: 50%;
             height: 100%;
@@ -128,51 +149,114 @@
 
     .header_content {
         margin-top: 10rem;
+
         h1 {
             font-size: 35px;
         }
     }
-    .mehsullar_section{
+
+    .mehsullar_section {
         flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+        width: 100%;
+
+        .mehsullar_div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            div {
+                width: 100%;
+            }
+        }
     }
+
     .second_part {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
 
         article {
             width: 100%;
+
             p {
                 width: 100%;
                 font-size: 16px;
             }
         }
+
         a {
             margin-bottom: 30px;
+            margin-left: 0 !important;
+
             p {
                 font-size: 16px;
             }
         }
+
         .secondPheroImg {
             width: 345px;
         }
     }
 
-    .mehsul_img {
-        img {
-        width: 345px;
-
+    .second_part_txt {
+        p {
+            padding: 0 !important;
         }
     }
+
+    .mehsul_img {
+        img {
+            width: 100%;
+        }
+    }
+
     .home_slider_txt {
         display: none;
     }
+
     .mehsullar_div {
         margin-bottom: 40px;
+
         h5 {
             font-size: 16px;
         }
+
         h6 {
             font-size: 40px !important;
+        }
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    .brendler {
+        width: 100%;
+
+        p {
+            font-size: 16px !important;
+            text-align: center;
+            width: 100%;
+
+            br {
+                display: none;
+            }
+        }
+    }
+
+    .slide2 {
+
+        .slick-slide {
+            width: 100px !important;
+
+            img {
+                width: 150px !important;
+                padding: 30px;
+            }
         }
     }
 }
