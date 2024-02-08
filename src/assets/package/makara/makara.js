@@ -4,6 +4,14 @@ import { Helmet } from "react-helmet";
 import makara_main from "../../img/images/makara_img/img1.jpg";
 import makara_img2 from "../../img/images/makara_img/img2.png";
 import makara_img3 from "../../img/images/makara_img/img3.png";
+import makara_img4 from "../../img/images/makara_img/img4.png";
+import makara_img5 from "../../img/images/makara_img/img5.png";
+import makara_img6 from "../../img/images/makara_img/img6.png";
+import makara_img7 from "../../img/images/makara_img/img7.png";
+import makara_img8 from "../../img/images/makara_img/img8.png";
+import makara_img9 from "../../img/images/makara_img/img9.png";
+
+
 
 
 function Makara() {
@@ -79,47 +87,47 @@ function Makara() {
           </div>
 
           <div>
-            <img src={makara_img2} />
+            <img src={makara_img3} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>
 
           <div className="noRborder">
-            <img src={makara_img2} />
+            <img src={makara_img4} />
             <hr />
             <p>Makara PIPE RIGATE</p>
           </div>
 
           <div >
-            <img src={makara_img2} />
+            <img src={makara_img5} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>
 
           <div>
-            <img src={makara_img2} />
+            <img src={makara_img6} />
             <hr />
             <p>Makara VERMICELLES</p>
           </div>
 
           <div className="noRborder">
-            <img src={makara_img2} />
+            <img src={makara_img3} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>
 
           <div className="jContStart">
-            <img src={makara_img3} />
+            <img src={makara_img7} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>
           <div >
-            <img src={makara_img2} />
+            <img src={makara_img8} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>
           <div className="noRborder" >
-            <img src={makara_img3} />
+            <img src={makara_img9} />
             <hr />
             <p>Makara STORTELLI</p>
           </div>

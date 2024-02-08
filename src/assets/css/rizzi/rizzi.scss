@@ -1,88 +1,104 @@
-.article_img{
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    img{
-        padding: 2rem 0;
-        width: 50%;
-    }
-    p{
-        font-size: 1.4rem;
-    }
-    h5{
-        font-size: 1.4rem;
-        font-weight: 600;
-    }
-    article {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start !important;
-        padding-left: 5.6rem;
-        margin-top: 3.5rem;
-        margin-bottom: 3.5rem;
-
-        line-height: 3rem;
-    }
-   
-}
-.pastaBasliq{
-    font-size: 40px;
-    font-weight: 500;
-    margin-top: 80px;
-}
-
-
-
-.border_div{
-    border-left: 1px solid;
-}
-   
-
-.rizzi_section{
-    h1{
-        font-weight: 500;
-    }
+.article_img {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  img {
+    padding: 2rem 0;
+    width: 50%;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  article {
     display: flex;
     flex-direction: column;
-    hr{
-       margin: 3.5rem 0;
-    }
+    justify-content: flex-start;
+    align-items: flex-start !important;
+    padding-left: 5.6rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+
+    line-height: 3rem;
+  }
+}
+.pastaBasliq {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+.border_div {
+  border-left: 1px solid;
+}
+
+.rizzi_section {
+  h1 {
+    font-weight: 500;
+  }
+  display: flex;
+  flex-direction: column;
+  hr {
+    margin: 3.5rem 0;
+  }
 }
 
 .erkoyun {
-    text-align: start;
+  text-align: start;
 }
-
 
 .pastas_rizzi {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5rem;
-    border-top: 1px solid;
-    div {
-        border-right: 1px solid;
-        border-bottom: 1px solid;
-        width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  border-top: 1px solid;
+  div {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: fit-content;
 
-        img {
-            padding: 1rem;
-        }
+    img {
+      padding: 1rem;
     }
-    p{
-        padding: 1.27rem;
-        color: #131313;
-       font-size: 18px;
-       font-style: normal;
-       font-weight: 500;
-       line-height: normal;
-        
-    }
+  }
+  p {
+    padding: 1.27rem;
+    color: #131313;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 @media screen and (max-width: 391px) {
-    .pastas_rizzi div {
-        border-right: unset;
+  .pastas_rizzi {
+    div {
+      border-right: unset;
     }
+    img {
+      width: 100%;
+    }
+  }
+  .article_img {
+    img {
+      width: 100% !important;
+    }
+    article{
+        padding-left: 0 !important;
+    }
+    h5{
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+    p{
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+  }
+  
 }

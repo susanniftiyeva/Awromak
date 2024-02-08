@@ -4,6 +4,15 @@ import { Helmet } from "react-helmet";
 import kelebek_mainK from "../../img/images/kelebek_img/mask_group.jpg";
 import kelebek_img1 from "../../img/images/kelebek_img/img1.png";
 import kelebek_img2 from "../../img/images/kelebek_img/img2.png";
+import kelebek_img6 from "../../img/images/kelebek_img/img6.png";
+import kelebek_img5 from "../../img/images/kelebek_img/img5.png";
+import kelebek_img4 from "../../img/images/kelebek_img/img4.png";
+import kelebek_img3 from "../../img/images/kelebek_img/img3.png";
+import kelebek_img7 from "../../img/images/kelebek_img/img7.png";
+import kelebek_img8 from "../../img/images/kelebek_img/img8.png";
+import kelebek_img9 from "../../img/images/kelebek_img/img9.png";
+import kelebek_img10 from "../../img/images/kelebek_img/img10.png";
+
 
 function Kelebek() {
   return (
@@ -69,7 +78,7 @@ function Kelebek() {
           </div>
         </section>
 
-        <h1 className="pastaBasliq">kelebek məhsulları</h1>
+        <h1 className="pastaBasliq">Kelebek məhsulları</h1>
         <section className="pastas_kelebek">
           <div>
             <img src={kelebek_img1} />
@@ -84,31 +93,52 @@ function Kelebek() {
           </div>
 
           <div className="noRborder">
-            <img src={kelebek_img1} />
+            <img src={kelebek_img6} />
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>
           </div>
 
           <div>
-            <img src={kelebek_img1} />
+            <img src={kelebek_img5} />
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>
           </div>
 
           <div>
-            <img src={kelebek_img1} />
+            <img src={kelebek_img4} />
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>
           </div>
+          
 
           <div className="noRborder">
-            <img src={kelebek_img1} />
+            <img src={kelebek_img3} />
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>
           </div>
 
           <div className="jContStart">
-            <img src={kelebek_img2} />
+            <img src={kelebek_img7} />
+            <hr />
+            <p>Pasta di Rizzi CONCHIGLIE</p>
+          </div>
+          <div className="jContStart">
+            <img src={kelebek_img8} />
+            <hr />
+            <p>Pasta di Rizzi CONCHIGLIE</p>
+          </div>
+          <div className="noRborder">
+            <img src={kelebek_img4} />
+            <hr />
+            <p>Pasta di Rizzi CONCHIGLIE</p>
+          </div>
+          <div className="jContStart">
+            <img src={kelebek_img9} />
+            <hr />
+            <p>Pasta di Rizzi CONCHIGLIE</p>
+          </div>
+          <div className="jContStart">
+            <img src={kelebek_img10} />
             <hr />
             <p>Pasta di Rizzi CONCHIGLIE</p>
           </div>
