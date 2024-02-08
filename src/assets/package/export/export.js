@@ -2,10 +2,15 @@ import React from "react";
 import "../../css/export/export.scss";
 import heroExport from "../../img/images/export/ex1.svg";
 import heroExport2 from "../../img/images/export/exportAdami.jpg";
+import { Helmet } from "react-helmet";
 
 function Export() {
   return (
     <div className="exportBody custon_container">
+      <Helmet>
+        <title>Export</title>
+        <meta name="description" content="Favelli makaronlari" />
+      </Helmet>
       <section className="heroContent">
         <h2>
           Avromak yarandığı gündən keyfiyyət, məhsul və vaxtında çatdırılma
@@ -69,18 +74,22 @@ function Export() {
                 <input type="text" placeholder="Qablaşdırma"></input>
               </div>
             </form>
-              <div className="textAreaDiv">
-                <textarea placeholder="Mesajınız"></textarea>
-              </div>
+            <div className="textAreaDiv">
+              <textarea placeholder="Mesajınız"></textarea>
+            </div>
 
-              <div className="ExportBtnDiv">
-                <button type="button">Göndər</button>
-              </div>
-              
-          <article>
-            <p>Qiymət almaq və məhsul və xidmətlərimiz haqqında daha ətraflı məlumat almaq üçün export@avromak.az ünvanına e-poçt göndərməklə və ya əlaqə formasından istifadə etməklə bizimlə əlaqə saxlaya bilərsiniz.</p>
-          </article>
+            <div className="ExportBtnDiv">
+              <button type="button">Göndər</button>
+            </div>
 
+            <article>
+              <p>
+                Qiymət almaq və məhsul və xidmətlərimiz haqqında daha ətraflı
+                məlumat almaq üçün export@avromak.az ünvanına e-poçt göndərməklə
+                və ya əlaqə formasından istifadə etməklə bizimlə əlaqə saxlaya
+                bilərsiniz.
+              </p>
+            </article>
           </div>
         </div>
       </section>

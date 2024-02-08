@@ -48,7 +48,7 @@ const Header = (props) => {
               </a>
             </li>
             <li>
-              <a href="/production" className="d-flex align-items-baseline"> Məhsullar
+              <a href="/production" className="d-flex align-items-baseline"> İstehsalat
               <img className="ms-4" src={up_icon} alt=""/></a>
             </li>
             <li>
@@ -56,10 +56,10 @@ const Header = (props) => {
               <img className="ms-4" src={up_icon} alt=""/></a>
             </li>
             <li>
-              <a href="/export" className="d-flex align-items-baseline"> Export <img className="ms-4" src={up_icon} alt=""/> </a>
+              <a href="/export" className="d-flex align-items-baseline"> İxrac <img className="ms-4" src={up_icon} alt=""/> </a>
             </li>
             <li>
-              <a href="/contact" className="d-flex align-items-baseline"> Contact <img className="ms-4" src={up_icon} alt=""/></a>
+              <a href="/contact" className="d-flex align-items-baseline"> Əlaqə <img className="ms-4" src={up_icon} alt=""/></a>
             </li>
           </ul>
 

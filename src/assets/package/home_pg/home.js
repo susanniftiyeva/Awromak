@@ -21,6 +21,7 @@ import hSlideimg2 from "../../img/images/home_pg/slide icons/headerSlide2.png";
 import hSlideimg3 from "../../img/images/home_pg/slide icons/headerSlide3.png";
 import hSlideimg4 from "../../img/images/home_pg/slide icons/headerSlide4.png";
 import hSlideimg5 from "../../img/images/home_pg/slide icons/headerSlide5.png";
+import { Helmet } from "react-helmet";
 
 function Home() {
   const settings = {
@@ -58,6 +59,10 @@ function Home() {
 
   return (
     <div className="home_body custon_container">
+      <Helmet>
+        <title>Home</title>
+        <meta name="description" content="Favelli makaronlari" />
+      </Helmet>
       <header className="header_content">
         <h1>
           {" "}
@@ -161,15 +166,15 @@ function Home() {
           </div>
 
           <div>
-            <Link to="/rosko">
+            <Link to="/meat">
               <h5>Rosko</h5>
               <img src={up_arch} />
             </Link>
-            <Link to="/ustad">
+            <Link to="/meat">
               <h5>Ustdad</h5>
               <img src={up_arch} />
             </Link>
-            <Link to="/dadim">
+            <Link to="/meat">
               <h5>Dadim</h5>
               <img src={up_arch} />
             </Link>
