@@ -4,6 +4,15 @@ import { Helmet } from "react-helmet";
 import favelli_main from "../../img/images/favelli_img/img1.jpg";
 import favelli_img2 from "../../img/images/favelli_img/img2.png";
 import favelli_img3 from "../../img/images/favelli_img/img3.png";
+import favelli_img4 from "../../img/images/favelli_img/img4.png";
+import favelli_img5 from "../../img/images/favelli_img/img5.png";
+import favelli_img6 from "../../img/images/favelli_img/img6.png";
+import favelli_img7 from "../../img/images/favelli_img/img7.png";
+import favelli_img8 from "../../img/images/favelli_img/img8.png";
+import favelli_img9 from "../../img/images/favelli_img/img9.png";
+import favelli_img10 from "../../img/images/favelli_img/img10.png";
+import favelli_img11 from "../../img/images/favelli_img/img11.png";
+import favelli_img12 from "../../img/images/favelli_img/img12.png";
 
 
 function Favelli() {
@@ -79,47 +88,47 @@ function Favelli() {
           </div>
 
           <div>
-            <img src={favelli_img2} />
+            <img src={favelli_img4} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
           <div className="noRborder">
-            <img src={favelli_img2} />
+            <img src={favelli_img5} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
           <div>
-            <img src={favelli_img2} />
+            <img src={favelli_img6} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
           <div>
-            <img src={favelli_img2} />
+            <img src={favelli_img7} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
           <div className="noRborder">
-            <img src={favelli_img2} />
+            <img src={favelli_img8} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
 
           <div className="">
-            <img src={favelli_img2} />
+            <img src={favelli_img9} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
           <div >
-            <img src={favelli_img2} />
+            <img src={favelli_img10} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
           <div className="noRborder">
-            <img src={favelli_img2} />
+            <img src={favelli_img11} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
@@ -129,7 +138,7 @@ function Favelli() {
             <p>FAVELLİ PIPE RIGATE</p>
           </div>
           <div className="jContStart">
-            <img src={favelli_img3} />
+            <img src={favelli_img12} />
             <hr />
             <p>FAVELLİ PIPE RIGATE</p>
           </div>

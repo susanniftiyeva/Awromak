@@ -96,13 +96,23 @@
     border-right: unset !important;
 }
 @media screen and (max-width: 391px) {
-    .pastas_kelebek div {
+    .pastas_kelebek{
+        padding: 0 ;
+     div {
         border-right: unset;
+        width: 100%;
+        img{
+            width: 100%;
+            height: auto;
+        }
+
     }
+}
     .articleImgDiv{
         width:100% !important;
         height: 100%;
         background-image: unset !important;
+        margin: 0 !important;
 
         img {
             width: 100%;
@@ -111,5 +121,8 @@
     }
     .article_img{
         flex-direction: column;
+    }
+    .pastaBasliq{
+        font-size: 35px;
     }
 }
