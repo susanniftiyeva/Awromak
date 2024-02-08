@@ -1,8 +1,8 @@
 import React from "react";
 import "../../css/production_pg/production.scss";
 import Image from "../../img/images/production_pg/Image_production";
-import up_arch from '../../img/icon/home/right_up.svg';
-import { Link } from 'react-router-dom';
+import up_arch from "../../img/icon/home/right_up.svg";
+import { Link } from "react-router-dom";
 const Production = () => {
   return (
     <div className="custon_container">
@@ -13,7 +13,10 @@ const Production = () => {
           xarici bazarda genish nufuz qazanmishdir.
         </h1>
 
-       <div className="img1Div"> <img className="img1" src={Image.image82} /></div>
+        <div className="img1Div">
+          {" "}
+          <img className="img1" src={Image.image82} />
+        </div>
         <p>
           Avromak MMC olaraq, qurulduğumuz gündən gücünü torpaqdan alan kənd
           təsərrüfatı məhsullarımızla fəaliyyət göstəririk. İnvestisiyalarımızı
@@ -40,88 +43,82 @@ const Production = () => {
           <hr />
 
           <div className="sahe">
-            <span >ƏKİN SAHƏSİ</span>
+            <span>ƏKİN SAHƏSİ</span>
             <span>İSTEHSAL SAHƏSİ</span>
           </div>
           <hr />
         </div>
       </div>
 
-    
-
-       
-       <h2 className='altbashliq'>Məhsullarımız</h2>
-      <div className='mehsullar_section'>
-       <div className='mehsullar_div'>
-          <div className='mehsul_img'>
+      <h2 className="altbashliq">Məhsullarımız</h2>
+      <div className="mehsullar_section">
+        <div className="mehsullar_div">
+          <div className="mehsul_img">
             <img src={Image.image83} />
-            <h6 className='mehsul_header'>Ət məhsulları</h6>
+            <h6 className="mehsul_header">Ət məhsulları</h6>
           </div>
 
           <div>
-            <Link to='/rosko'>
+            <Link to="/meat">
               <h5>Rosko</h5>
               <img src={up_arch} />
             </Link>
-            <Link to='/ustad'>
+            <Link to="/meat">
               <h5>Ustdad</h5>
               <img src={up_arch} />
             </Link>
-            <Link to='/dadim'>
+            <Link to="/meat">
               <h5>Dadim</h5>
               <img src={up_arch} />
             </Link>
           </div>
-
         </div>
 
-
-        <div className='mehsullar_div'>
-          <div className='mehsul_img'>
+        <div className="mehsullar_div">
+          <div className="mehsul_img">
             <img src={Image.image84} />
-            <h6 className='mehsul_header'>Makaron</h6>
-
+            <h6 className="mehsul_header">Makaron</h6>
           </div>
           <div>
-            <Link to='/favelli'>
+            <Link to="/favelli">
               <h5>Favelli</h5>
               <img src={up_arch} />
             </Link>
-            <Link to='/makara'>
+            <Link to="/makara">
               <h5>Makara</h5>
               <img src={up_arch} />
             </Link>
-            <Link to='/kelebek'>
+            <Link to="/kelebek">
               <h5>Kelebek</h5>
               <img src={up_arch} />
             </Link>
-            <Link to='/rizzi'>
+            <Link to="/rizzi">
               <h5>Pasta Di Rizzi</h5>
               <img src={up_arch} />
             </Link>
           </div>
         </div>
-        
-        <div className='mehsullar_div'>
-          <div className='mehsul_img'>
+
+        <div className="mehsullar_div">
+          <div className="mehsul_img">
             <img src={Image.image85} />
-            <h6 className='mehsul_header'>Un məhsulları</h6>
+            <h6 className="mehsul_header">Un məhsulları</h6>
           </div>
           <div>
-            <Link to='/favelli'>
+            <Link to="/favelli">
               <h5>Favelli Un</h5>
               <img src={up_arch} />
             </Link>
           </div>
         </div>
-       </div>
-       <div/>
+      </div>
+      <div />
 
       <div className="section">
         <h3>Private label</h3>
         <div className="imags">
           <img className="item" src={Image.pasta1} />
-          <img className="item1"src={Image.pasta2} />
+          <img className="item1" src={Image.pasta2} />
           <img className="item2" src={Image.pasta3} />
         </div>
         <p>
