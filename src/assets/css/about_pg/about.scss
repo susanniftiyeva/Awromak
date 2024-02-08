@@ -30,10 +30,11 @@
   img {
     margin-top: 4.6rem;
     margin-right: 5.1rem;
+    margin-bottom: 4.3rem;
   }
   p {
     width: 68.9rem;
-    margin-top: 4.3rem;
+    // margin-top: 4.3rem;
     margin-bottom: 15px;
     margin-right: 25rem;
     font-size: 1.6rem;
@@ -41,16 +42,7 @@
     font-weight: 400;
     line-height: 150%; /* 24px */
   }
-  span {
-    width: 67rem;
-    color: #000;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-    margin-right: 27rem;
-    margin-bottom: 11rem;
-  }
+
 }
 
 .article-ab2 {
@@ -142,9 +134,6 @@
     }
     p{
       margin-right: 0px;
-    }
-    span{
-      margin-right:-11px;
     }
   }
 

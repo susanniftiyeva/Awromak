@@ -55,6 +55,7 @@
     line-height: 2.1rem;
 }
 img{
+  width: 100%;
   margin: 15px 0;
 }
 
@@ -73,7 +74,14 @@ img{
   .article-mt1{
     p{
       width: unset;
-      padding-left: 22px !important;
+    margin: 0 !important;
     }
+    h3{
+      padding-top: 60px;
+    }
+  }
+
+  p{
+    font-size: 16px !important;
   }
 }
