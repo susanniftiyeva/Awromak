@@ -115,3 +115,86 @@
         color: #f8f8ef;
     }
 }
+
+@media screen and (max-width: 391px) {
+    .exportBody {
+        padding-top: 100px;
+    }
+    .imgDiv2 {
+
+        img {
+            width: 100%;
+        }
+    }
+    .rightBorder {
+        border: none !important;
+    }
+
+    .exportContent1 {
+        border-top: none;
+        div {
+            width: 100%;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        p {
+            width: 100%;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        h3 {
+            font-size: 35px;
+            font-weight: 600;
+        }
+    }
+
+    .exportContent1, .exportContent2 {
+        flex-direction: column;
+    }
+    .imgDiv2 {
+        border: none !important;
+        width: 100% !important;
+        img {
+        width: 100%;
+        }
+    }
+    .exportForm {
+        width: 100% !important;
+        padding-left: 0;
+        border-bottom: unset;
+        h5 {
+            font-size: 35px;
+            font-weight: 600;
+        }
+        form {
+            gap: 5rem !important;
+            div {
+            flex-direction: column;
+            width: 100%;
+            input {
+                width: 100%;
+                font-size: 15px;
+            }
+            }
+        }
+        article {
+            font-size: 16px;
+        }
+    }
+    .textAreaDiv {
+        textarea {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 5rem;
+        }
+    }
+    .ExportBtnDiv {
+        button {
+            font-size: 16px;
+            padding: 10px 50px;
+            border-radius: 50px;
+            outline: none;
+        }
+    }
+
+}

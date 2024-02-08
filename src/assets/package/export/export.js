@@ -12,7 +12,9 @@ function Export() {
           prinsipləri sayəsində həm yərli həm də xarici miqyasda nüfuzunu
           qazanmışdır.
         </h2>
-        <img src={heroExport} />
+        <div>
+          <img src={heroExport} />
+        </div>
       </section>
 
       <section className="exportContent">
@@ -67,12 +69,12 @@ function Export() {
                 <input type="text" placeholder="Qablaşdırma"></input>
               </div>
             </form>
-              <div>
+              <div className="textAreaDiv">
                 <textarea placeholder="Mesajınız"></textarea>
               </div>
 
               <div className="ExportBtnDiv">
-                <button>Göndər</button>
+                <button type="button">Göndər</button>
               </div>
               
           <article>
