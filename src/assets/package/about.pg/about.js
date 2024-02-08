@@ -21,14 +21,14 @@ const about = () => {
             etməyə əsaslanır. Şirkət öz işçi qüvvəsi və nəqliyyat vasitələri ilə
             məhsulları Azərbaycanın istənilən bölgəsinə çatdırmaqdadır.
           </p>
-          <span>
+          <p>
             “Avromak” MMC-nin əsas məqsədi istehsal və distribüterlik etdiyi
             məhsulların çeşidlərinin və keyfiyyətinin optimallaşdırılmasıdır və
             bu istiqamətdə daimi çalışır. “Avromak” MMC Bakıda yerləşən baş
             ofis, anbarlar, dəyirman, istehsal sahələri və regional filiallardan
             ibarətdir. Şirkət dünyanın müxtəlif ölkələri ilə əməkdaşlıq edir və
             bu əməkdaşlıqları genişləndirməkdədir.
-          </span>
+          </p>
         </div>
 
         <div className="article-ab2">
