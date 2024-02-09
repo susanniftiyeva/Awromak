@@ -4,7 +4,7 @@
   font-size: 4rem;
 }
 .img1 {
-  width: 119.2rem;
+  width: 100%;
   height: 79rem;
   flex-shrink: 0;
   margin-top: 3rem;
@@ -119,9 +119,10 @@
 
 @media screen and (max-width: 391px) {
   .section{
-    margin-left: -2px;
+    // margin-left: -2px;
     h1 {
       font-size: 35px;
+      padding-top: 70px;
     }
     h2{
       font-size: 35px;
