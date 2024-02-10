@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import "../../css/home_pg/home.css";
@@ -22,6 +22,7 @@ import hSlideimg3 from "../../img/images/home_pg/slide icons/headerSlide3.png";
 import hSlideimg4 from "../../img/images/home_pg/slide icons/headerSlide4.png";
 import hSlideimg5 from "../../img/images/home_pg/slide icons/headerSlide5.png";
 import { Helmet } from "react-helmet";
+import axios from "axios";
 
 function Home() {
   const settings = {
@@ -54,8 +55,16 @@ function Home() {
     speed: 2000,
     autoplaySpeed: 3000,
     cssEase: "linear",
+  };
 
-  }
+  const [photos, setPhotos] = useState([]);
+
+  axios
+    .get("https://api.slingacademy.com/v1/sample-data/photos")
+    .then((res) => {
+      console.log(res.data.photos);
+      setPhotos(res.data.photos);
+    });
 
   return (
     <div className="home_body custon_container">
@@ -110,25 +119,15 @@ function Home() {
       <section className="home_content">
         <div className="biger_img_home absoluteImgDiv top330">
           <Slider {...setting}>
-            <div>
-              <img src={main_img_header} />
-            </div>
 
-            <div>
-              <img src={hSlideimg2} />
-            </div>
+            {photos.map(p => {
+              return (
+                <div key={p.id}>
+                  <img src={p.url} alt="image" />
+                </div>
+              );
+            })}
 
-            <div>
-              <img src={hSlideimg3} />
-            </div>
-
-            <div>
-              <img src={hSlideimg4} />
-            </div>
-
-            <div>
-              <img src={hSlideimg5} />
-            </div>
           </Slider>
         </div>
 
@@ -230,63 +229,62 @@ function Home() {
       </article>
 
       <div className="absoluteImgDiv bottom200">
-      <Slider {...settings2} className="slide2">
-        <div>
-          <img src={slide_img1} />
-        </div>
-        <div>
-          <img src={slide_img2} />
-        </div>
-        <div>
-          <img src={slide_img3} />
-        </div>
+        <Slider {...settings2} className="slide2">
+          <div>
+            <img src={slide_img1} />
+          </div>
+          <div>
+            <img src={slide_img2} />
+          </div>
+          <div>
+            <img src={slide_img3} />
+          </div>
 
-        <div>
-          <img src={slide_img4} />
-        </div>
+          <div>
+            <img src={slide_img4} />
+          </div>
 
-        <div>
-          <img src={slide_img5} />
-        </div>
-        <div>
-          <img src={slide_img6} />
-        </div>
-        <div>
-          <img src={slide_img7} />
-        </div>
+          <div>
+            <img src={slide_img5} />
+          </div>
+          <div>
+            <img src={slide_img6} />
+          </div>
+          <div>
+            <img src={slide_img7} />
+          </div>
 
-        <div>
-          <img src={slide_img4} />
-        </div>
+          <div>
+            <img src={slide_img4} />
+          </div>
 
-        <div>
-          <img src={slide_img1} />
-        </div>
-        <div>
-          <img src={slide_img2} />
-        </div>
-        <div>
-          <img src={slide_img3} />
-        </div>
-        <div>
-          <img src={slide_img4} />
-        </div>
-        <div>
-          <img src={slide_img5} />
-        </div>
-        <div>
-          <img src={slide_img6} />
-        </div>
-        <div>
-          <img src={slide_img7} />
-        </div>
+          <div>
+            <img src={slide_img1} />
+          </div>
+          <div>
+            <img src={slide_img2} />
+          </div>
+          <div>
+            <img src={slide_img3} />
+          </div>
+          <div>
+            <img src={slide_img4} />
+          </div>
+          <div>
+            <img src={slide_img5} />
+          </div>
+          <div>
+            <img src={slide_img6} />
+          </div>
+          <div>
+            <img src={slide_img7} />
+          </div>
 
-        <div>
-          <img src={slide_img4} />
-        </div>
-      </Slider>
+          <div>
+            <img src={slide_img4} />
+          </div>
+        </Slider>
       </div>
-
     </div>
   );
 }
