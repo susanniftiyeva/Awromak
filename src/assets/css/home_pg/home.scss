@@ -178,6 +178,7 @@
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        padding-top: 150px;
 
         article {
             width: 100%;
@@ -258,5 +259,13 @@
                 padding: 30px;
             }
         }
+    }
+
+    .biger_img_home {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 330px;
+
     }
 }

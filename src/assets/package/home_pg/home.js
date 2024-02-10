@@ -108,7 +108,7 @@ function Home() {
       </div>
 
       <section className="home_content">
-        <div className="biger_img_home">
+        <div className="biger_img_home absoluteImgDiv top330">
           <Slider {...setting}>
             <div>
               <img src={main_img_header} />
@@ -229,6 +229,7 @@ function Home() {
         </p>
       </article>
 
+      <div className="absoluteImgDiv bottom200">
       <Slider {...settings2} className="slide2">
         <div>
           <img src={slide_img1} />
@@ -284,6 +285,8 @@ function Home() {
           <img src={slide_img4} />
         </div>
       </Slider>
+      </div>
+
     </div>
   );
 }
