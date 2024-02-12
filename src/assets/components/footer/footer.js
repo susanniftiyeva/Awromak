@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import footer_img1 from '../../img/images/footer_img/footer1.png'
 import footer_img2 from '../../img/images/footer_img/footer2.png'
@@ -6,16 +6,32 @@ import footer_img3 from '../../img/images/footer_img/footer3.png'
 import footer_img4 from '../../img/images/footer_img/footer4.png'
 import footer_img5 from '../../img/images/footer_img/footer5.png'
 import up_arch from '../../img/icon/footer/sml_up_arch.svg'
+import axios from 'axios'
 
 function Footer() {
-  return (
+
+  const [footerImages, setFooterImages] = useState([]);
+
+  axios.get('https://fakestoreapi.com/products')
+  .then((response) => {
+    setFooterImages(response.data.map(item => item.image));
+  }) 
+    return (
     <div className='footer_body'>
       <div className='footer_img_div'>
-        <img src={footer_img1} alt='footer_img'/>
-        <img src={footer_img2} alt='footer_img'/>
+
+          {footerImages.map((image, index) => {
+            return (
+                <div key={index}>
+                    <img src={image} alt='footer_img'/>
+                </div>
+            )
+          })}
+
+        {/* <img src={footer_img2} alt='footer_img'/>
         <img src={footer_img3} alt='footer_img'/>
         <img src={footer_img4} alt='footer_img'/>
-        <img src={footer_img5} alt='footer_img'/>
+        <img src={footer_img5} alt='footer_img'/> */}
       </div>
 
       <footer className='custon_container footer_content'>
