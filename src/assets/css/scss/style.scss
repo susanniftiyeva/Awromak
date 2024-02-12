@@ -151,10 +151,15 @@ li {
 
 .footer_img_div {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  // flex-wrap: wrap;
   width: 100%;
   img {
-    width: calc(100% / 5);
+    // width: calc(100% / 5);
+    width: 100%;
+  }
+  div {
+    width: fit-content;
   }
 }
 
