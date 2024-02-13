@@ -1,4 +1,6 @@
+
 import React, { useState, useEffect } from "react";
+
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import "../../css/home_pg/home.css";
@@ -72,6 +74,7 @@ function Home() {
       });
   }, []);
 
+  
   return (
     <div className="home_body custon_container">
       <Helmet>

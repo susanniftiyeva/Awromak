@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../../css/favelli/favelli.scss";
 import { Helmet } from "react-helmet";
 import favelli_main from "../../img/images/favelli_img/img1.jpg";
@@ -13,9 +13,23 @@ import favelli_img9 from "../../img/images/favelli_img/img9.png";
 import favelli_img10 from "../../img/images/favelli_img/img10.png";
 import favelli_img11 from "../../img/images/favelli_img/img11.png";
 import favelli_img12 from "../../img/images/favelli_img/img12.png";
-
+import axios from "axios";
 
 function Favelli() {
+  const [images, setImages] = useState([]);
+  const [items, setItems] = useState("");
+  const [head, setHead] = useState ("");
+useEffect(() => {
+  axios .get("https://dummyjson.com/products/4")
+        .then((res) => {
+          setHead(res.data.brand)
+          setImages(res.data.images)
+          setItems(res.data.title)
+          setItems(res.data.category)
+          setItems(res.data.description)
+          
+        })
+}, []);
   return (
     <>
       <Helmet>
@@ -24,23 +38,19 @@ function Favelli() {
       </Helmet>
       <div className="custon_container ">
         <section className="favelli_section">
-          <h1 className="pastaBasliq">FAVELLI</h1>
+          <h1 className="pastaBasliq">{head}</h1>
           {/* <hr /> */}
 
           <div className="article_img">
             <div className="articleImgDiv favelliImg3">
-              <img src={favelli_main}/>
+              <img src={favelli_main} />
             </div>
 
             <div className="border_div">
               {/* <hr /> */}
 
               <article>
-                <h5>Tərkibi:</h5>
-                <p>
-                  Bərk buğda növündən hazırlanmış un və su. Tərkibində
-                  konservant, rəngləyici və digər qida əlavələri yoxdur.
-                </p>
+                <h5>{items}</h5>
               </article>
 
               <hr />
@@ -48,9 +58,7 @@ function Favelli() {
               <article>
                 <h5>Saxlanılma şəraiti</h5>
                 <p className="erkoyun">
-                  30°C-dən çox olmayan temperaturda, havanın nisbi rütubəti
-                  75%-dən çox olmayan, təmiz və quru yerdə saxlanılmalıdır.
-                  Kənar qoxulu və ziyanvericilərlə yoluxmuş mühitdən qoruyun.
+                  {items}
                 </p>
               </article>
 
@@ -79,72 +87,19 @@ function Favelli() {
           </div>
         </section>
 
-        <h1 className="pastaBasliq">favelli məhsulları</h1>
+        <h1 className="pastaBasliq">{items}</h1>
         <section className="pastas_favelli">
-          <div>
-            <img src={favelli_img2} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
-          <div>
-            <img src={favelli_img4} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
-          <div className="noRborder">
-            <img src={favelli_img5} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
-          <div>
-            <img src={favelli_img6} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
-          <div>
-            <img src={favelli_img7} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
-          <div className="noRborder">
-            <img src={favelli_img8} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-
-          <div className="">
-            <img src={favelli_img9} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-          <div >
-            <img src={favelli_img10} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-          <div className="noRborder">
-            <img src={favelli_img11} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-          <div >
-            <img src={favelli_img3} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
-          <div className="jContStart">
-            <img src={favelli_img12} />
-            <hr />
-            <p>FAVELLİ PIPE RIGATE</p>
-          </div>
+          {images.map((image,index) => {
+            return (
+              <div key={index}>
+                <img src={image} alt="image" />
+                <hr />
+                <p>FAVELLİ PIPE RIGATE</p>
+              </div>
+            );
+          })}
         </section>
-        
-        </div>
+      </div>
     </>
   );
 }
