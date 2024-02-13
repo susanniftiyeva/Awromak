@@ -17,16 +17,15 @@ import axios from "axios";
 
 function Favelli() {
   const [images, setImages] = useState([]);
-  const [items, setItems] = useState("");
+  const [items, setItems] = useState({});
   const [head, setHead] = useState ("");
 useEffect(() => {
   axios .get("https://dummyjson.com/products/4")
         .then((res) => {
           setHead(res.data.brand)
           setImages(res.data.images)
-          setItems(res.data.title)
-          setItems(res.data.category)
-          setItems(res.data.description)
+          setItems(res.data)
+         
           
         })
 }, []);
@@ -43,14 +42,14 @@ useEffect(() => {
 
           <div className="article_img">
             <div className="articleImgDiv favelliImg3">
-              <img src={favelli_main} />
+              <img src={items?.thumbnail} />
             </div>
 
             <div className="border_div">
               {/* <hr /> */}
 
               <article>
-                <h5>{items}</h5>
+                <h5>{items?.title}</h5>
               </article>
 
               <hr />
@@ -58,7 +57,7 @@ useEffect(() => {
               <article>
                 <h5>Saxlanılma şəraiti</h5>
                 <p className="erkoyun">
-                  {items}
+                  {items?.description}
                 </p>
               </article>
 
