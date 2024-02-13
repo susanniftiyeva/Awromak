@@ -20,7 +20,7 @@ function Favelli() {
   const [items, setItems] = useState({});
   const [head, setHead] = useState ("");
 useEffect(() => {
-  axios .get("https://dummyjson.com/products/4")
+  axios.get("https://dummyjson.com/products/4")
         .then((res) => {
           setHead(res.data.brand)
           setImages(res.data.images)
@@ -42,7 +42,7 @@ useEffect(() => {
 
           <div className="article_img">
             <div className="articleImgDiv favelliImg3">
-              <img src={items?.thumbnail} />
+            <img src={items.thumbnail} alt="thumbnail" />
             </div>
 
             <div className="border_div">
@@ -86,7 +86,7 @@ useEffect(() => {
           </div>
         </section>
 
-        <h1 className="pastaBasliq">{items}</h1>
+        <h1 className="pastaBasliq">{head}</h1>
         <section className="pastas_favelli">
           {images.map((image,index) => {
             return (
