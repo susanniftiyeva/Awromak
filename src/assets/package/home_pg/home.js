@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import "../../css/home_pg/home.css";
@@ -58,14 +58,17 @@ function Home() {
   };
 
   const [photos, setPhotos] = useState([]);
-
+ useEffect(() => {
   axios
-    .get("https://api.slingacademy.com/v1/sample-data/photos")
-    .then((res) => {
-      console.log(res.data.photos);
-      setPhotos(res.data.photos);
-    });
+  .get("https://api.slingacademy.com/v1/sample-data/photos")
+  .then((res) => {
+    console.log(res.data.message);
+    setPhotos(res.data.photos);
+  });
 
+ },[]
+  )
+  
   return (
     <div className="home_body custon_container">
       <Helmet>
