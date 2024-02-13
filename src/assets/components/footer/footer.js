@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import footer_img1 from '../../img/images/footer_img/footer1.png'
 import footer_img2 from '../../img/images/footer_img/footer2.png'
@@ -12,10 +12,19 @@ function Footer() {
 
   const [footerImages, setFooterImages] = useState([]);
 
-  axios.get('https://fakestoreapi.com/products')
-  .then((response) => {
-    setFooterImages(response.data.map(item => item.image));
-  }) 
+  useEffect(() => {
+    console.log("Component mounted");
+    axios
+      .get('https://fakestoreapi.com/products')
+      .then((res) => {
+        setFooterImages(res.data.map(item => item.image));
+      })
+      .catch((error) => {
+        console.error("Error fetching photos:", error);
+      });
+  }, []);
+
+ 
     return (
     <div className='footer_body'>
       <div className='footer_img_div'>
