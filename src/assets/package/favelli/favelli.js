@@ -17,22 +17,19 @@ import axios from "axios";
 
 function Favelli() {
   const [images, setImages] = useState([]);
-  axios.get("https://dummyjson.com/products/4/").then((response) => {
-    // console.log(response.data.images);
-    setImages(response.data.images);
-  });
-  const [items, setItems] = useState({});
-
-  useEffect(() => {
-    axios.get("https://dummyjson.com/products/5/")
-      .then((resp) => {
-        console.log(resp.data);
-        setItems([resp.data]); // Sunucudan gelen veriyi diziye dönüştürerek items değişkenine atar
-      })
-      .catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+  const [items, setItems] = useState("");
+  const [head, setHead] = useState ("");
+useEffect(() => {
+  axios .get("https://dummyjson.com/products/4")
+        .then((res) => {
+          setHead(res.data.brand)
+          setImages(res.data.images)
+          setItems(res.data.title)
+          setItems(res.data.category)
+          setItems(res.data.description)
+          
+        })
+}, []);
   return (
     <>
       <Helmet>
@@ -41,7 +38,7 @@ function Favelli() {
       </Helmet>
       <div className="custon_container ">
         <section className="favelli_section">
-          <h1 className="pastaBasliq">FAVELLI</h1>
+          <h1 className="pastaBasliq">{head}</h1>
           {/* <hr /> */}
 
           <div className="article_img">
@@ -53,18 +50,7 @@ function Favelli() {
               {/* <hr /> */}
 
               <article>
-                <h5>Tərkibi:</h5>
-              
-                  {
-                    items.map((item) => {
-                      return (
-                        <p>
-                          {item}
-                        </p>
-                      )
-                    })
-                  }
-              
+                <h5>{items}</h5>
               </article>
 
               <hr />
@@ -72,9 +58,7 @@ function Favelli() {
               <article>
                 <h5>Saxlanılma şəraiti</h5>
                 <p className="erkoyun">
-                  30°C-dən çox olmayan temperaturda, havanın nisbi rütubəti
-                  75%-dən çox olmayan, təmiz və quru yerdə saxlanılmalıdır.
-                  Kənar qoxulu və ziyanvericilərlə yoluxmuş mühitdən qoruyun.
+                  {items}
                 </p>
               </article>
 
@@ -103,11 +87,11 @@ function Favelli() {
           </div>
         </section>
 
-        <h1 className="pastaBasliq">favelli məhsulları</h1>
+        <h1 className="pastaBasliq">{items}</h1>
         <section className="pastas_favelli">
-          {images.map((image) => {
+          {images.map((image,index) => {
             return (
-              <div key={image.id}>
+              <div key={index}>
                 <img src={image} alt="image" />
                 <hr />
                 <p>FAVELLİ PIPE RIGATE</p>
