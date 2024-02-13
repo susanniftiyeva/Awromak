@@ -60,11 +60,19 @@ function Home() {
   const [photos, setPhotos] = useState([]);
  useEffect(() => {
   axios
+
   .get("https://api.slingacademy.com/v1/sample-data/photos")
   .then((res) => {
     console.log(res.data.message);
     setPhotos(res.data.photos);
   });
+
+    .get("https://api.slingacademy.com/v1/sample-data/photos")
+    .then((res) => {
+      // console.log(res.data.photos);
+      setPhotos(res.data.photos);
+    });
+
 
  },[]
   )
