@@ -42,7 +42,11 @@ useEffect(() => {
 
           <div className="article_img">
             <div className="articleImgDiv favelliImg3">
+
+              <img src={items.thumbnail} />
+
             <img src={items.thumbnail} alt="thumbnail" />
+
             </div>
 
             <div className="border_div">
