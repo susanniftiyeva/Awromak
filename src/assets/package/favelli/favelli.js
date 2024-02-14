@@ -42,7 +42,7 @@ useEffect(() => {
 
           <div className="article_img">
             <div className="articleImgDiv favelliImg3">
-              <img src={items?.thumbnail} />
+              <img src={items.thumbnail} />
             </div>
 
             <div className="border_div">
@@ -86,7 +86,7 @@ useEffect(() => {
           </div>
         </section>
 
-        <h1 className="pastaBasliq">{items}</h1>
+        <h1 className="pastaBasliq">{head}</h1>
         <section className="pastas_favelli">
           {images.map((image,index) => {
             return (
