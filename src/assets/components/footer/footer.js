@@ -29,18 +29,18 @@ function Footer() {
     <div className='footer_body'>
       <div className='footer_img_div'>
 
-          {footerImages.map((image, index) => {
+          {/*footerImages.map((image, index) => {
             return (
                 <div key={index}>
                     <img src={image} alt='footer_img'/>
                 </div>
             )
-          })}
+          })*/}
 
-        {/* <img src={footer_img2} alt='footer_img'/>
+        <img src={footer_img2} alt='footer_img'/>
         <img src={footer_img3} alt='footer_img'/>
         <img src={footer_img4} alt='footer_img'/>
-        <img src={footer_img5} alt='footer_img'/> */}
+        <img src={footer_img5} alt='footer_img'/>
       </div>
 
       <footer className='custon_container footer_content'>

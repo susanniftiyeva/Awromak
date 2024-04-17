@@ -28,7 +28,7 @@ function Kelebek() {
 
           <div className="article_img">
             <div className="articleImgDiv kelebekImg3">
-              <img src={kelebek_mainK}/>
+              {/* <img src={kelebek_mainK}/> */}
             </div>
 
             <div className="border_div">

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../css/makara/makara.scss";
 import { Helmet } from "react-helmet";
-import makara_main from "../../img/images/makara_img/img1.jpg";
+import makaraMain from "../../img/images/makara_img/img1.jpg";
 import makara_img2 from "../../img/images/makara_img/img2.png";
 import makara_img3 from "../../img/images/makara_img/img3.png";
 import makara_img4 from "../../img/images/makara_img/img4.png";
@@ -13,16 +13,16 @@ import makara_img9 from "../../img/images/makara_img/img9.png";
 import axios from "axios";
 
 function Makara() {
-  const [title, setTitle] = useState("");
-  const [photo, setPhoto] = useState([]);
+  // const [title, setTitle] = useState("");
+  // const [photo, setPhoto] = useState([]);
 
-  useEffect(() => {
-    axios.get("https://dummyjson.com/products/1").then((tit1) => {
-      setTitle(tit1.data.title);
-      // console.log(title)
-      setPhoto(tit1.data.images);
-    });
-  }, []);
+  // useEffect(() => {
+  //   axios.get("https://dummyjson.com/products/1").then((tit1) => {
+  //     setTitle(tit1.data.title);
+  //     // console.log(title)
+  //     setPhoto(tit1.data.images);
+  //   });
+  // }, []);
 
   return (
     <>
@@ -32,12 +32,13 @@ function Makara() {
       </Helmet>
       <div className="custon_container ">
         <section className="makara_section">
-          <h1 className="pastaBasliq">{title}</h1>
+          <h1 className="pastaBasliq">Makara</h1>
           {/* <hr /> */}
 
           <div className="article_img">
             <div className="articleImgDiv makaraImg2">
-              <img src={makara_main} />
+              <img src={makaraMain} />
+             
             </div>
 
             <div className="border_div">
@@ -89,15 +90,57 @@ function Makara() {
 
         <h1 className="pastaBasliq">Makara məhsulları</h1>
         <section className="pastas_makara">
-          {photo.map((photo, index) => {
-            return (
-              <div key={index}>
-                <img src={photo} />
+          {/* {photo.map((photo, index) => { */}
+            
+              <div >
+                <img src={makara_img2} />
                 <hr />
                 <p>Makara PENNE RIGATE</p>
               </div>
-            );
-          })}
+
+              <div >
+                <img src={makara_img3} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+
+              <div >
+                <img src={makara_img4} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+
+              <div >
+                <img src={makara_img5} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+
+              <div >
+                <img src={makara_img6} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+
+              <div >
+                <img src={makara_img7} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+
+              <div >
+                <img src={makara_img8} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+
+              <div >
+                <img src={makara_img9} />
+                <hr />
+                <p>Makara PENNE RIGATE</p>
+              </div>
+            
+          
         </section>
       </div>
     </>

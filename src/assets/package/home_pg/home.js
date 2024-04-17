@@ -127,7 +127,7 @@ function Home() {
 
       <section className="home_content">
         <div className="biger_img_home absoluteImgDiv top330">
-          <Slider {...setting}>
+          {/* <Slider {...setting}>
 
             {photos.map(p => {
               return (
@@ -137,7 +137,7 @@ function Home() {
               );
             })}
 
-          </Slider>
+          </Slider> */}
         </div>
 
         <div className="second_part">
